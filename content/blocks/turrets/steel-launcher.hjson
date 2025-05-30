@@ -37,12 +37,9 @@ ammoTypes: {
     shrinkX: 0
     speed: 7
     lifetime: 115
-    hitEffect: {
-      type: MultiEffect
-      effects: [
-        blastExplosion
-      ]
-    }
+    hitEffect: [
+      blastExplosion
+    ]
     despawnEffect: none
     despawnHit: true
     parts: [
@@ -62,4 +59,5 @@ consumes: {
 liquid: {
 liquid: cryofluid
 amount: 4
+}
 }
