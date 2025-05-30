@@ -1,0 +1,65 @@
+type: ItemTurret
+requirements: [
+// todo add shit
+]
+name: "Steel Launcher"
+description: '''
+Fires steel beams over huge distances. May or may not pierce armor, and certain ammunitions have fucking insane abilities.
+
+"bro you flinched" what bro threw at me:
+'''
+category: turret
+range: 800
+smokeEffect: none
+shootEffect: none
+shootSound: bang
+reload: 1800
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-beam"
+progress: reload
+color: ffffff
+colorTo: ffffff00
+}
+]
+}
+ammoTypes: {
+  lead: {
+    type: BasicBulletType
+    damage: 10000
+    splashDamage: 2000
+    splashDamageRadius: 100
+    width: 0
+    height: 0
+    shrinkY: 0
+    shrinkX: 0
+    speed: 7
+    lifetime: 115
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        blastExplosion
+      ]
+    }
+    despawnEffect: none
+    despawnHit: true
+    parts: [
+      {
+        type: RegionPart
+        name: mindustrymod-steel-launcher-beam
+        layer: 111
+      }
+    ]
+  }
+}
+recoil: 7
+shake: 7
+size: 5
+liquidCapacity: 1000
+consumes: {
+liquid: {
+liquid: cryofluid
+amount: 4
+}
