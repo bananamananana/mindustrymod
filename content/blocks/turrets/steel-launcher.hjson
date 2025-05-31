@@ -55,7 +55,7 @@ ammoTypes: {
       {
         length: 80
         cone: 30
-        lifetime: 70
+        lifetime: 40
         particles: 30
         colorFrom: 787878
         colorTo: 787878
@@ -65,7 +65,7 @@ ammoTypes: {
       {
         length: 70
         cone: 40
-        lifetime: 60
+        lifetime: 30
         particles: 25
         colorFrom: 787878
         colorTo: 787878
@@ -73,10 +73,10 @@ ammoTypes: {
         sizeTo: 0
       }
       {
-        length: 85
+        length: 40
         line: true
         cone: 40
-        lifetime: 35
+        lifetime: 15
         particles: 12
         colorFrom: ffd958
         colorTo: ff8833
@@ -86,10 +86,10 @@ ammoTypes: {
         strokeTo: 0
       }
       {
-        length: 170
+        length: 50
         line: true
         cone: 40
-        lifetime: 35
+        lifetime: 15
         particles: 15
         colorFrom: ff6729
         colorTo: f73d0f
