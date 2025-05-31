@@ -22,6 +22,8 @@ smokeEffect: none
 shootSound: flame
 shootType: {
   type: BulletType
+  homingPower: 0.2
+  homingRange: 150
   trailEffect: fire
   trailChance: 0.65
   speed: 4
