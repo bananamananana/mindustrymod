@@ -1,0 +1,58 @@
+type: ItemTurret
+requirements: [
+
+]
+name: "Magical Crystal Laser Shotgun That Fires Mysterious Purple Beams"
+description: '''
+Trash n' Shit found this contraption in a crackhead's garage. It fires laser beams, but instead of using electricity, it eats metaglass and just does shit. Also, it doesn't use coolant, just liquid crack.
+
+"We have no idea how it works, but it's cool." - Trash n' Shit Ceo
+
+
+
+lore: zac made this
+'''
+category: turret
+range: 96
+smokeEffect: none
+shootSound: laser
+reload: 160
+recoil: 2
+shake: 2
+size: 2
+shoot: {
+  shots: 10
+}
+inaccuracy: 45
+shootCone: 45
+ammoTypes: {
+  metaglass: {
+    type: LaserBulletType
+    damage: 300
+    lifetime: 22
+    length: 100
+    lifetime: 40
+    pierce: true
+    colors: [
+      a645ff,
+      ed72ff,
+      ffbaf8,
+      ffffff
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 16
+        lifetime: 10
+        particles: 7
+        colorFrom: ed72ff
+        colorTo: a645ff
+        lenFrom: 2
+        sizeTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+}
+liquidCapacity: 300
