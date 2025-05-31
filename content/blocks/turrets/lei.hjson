@@ -22,8 +22,7 @@ inaccuracy: 360
 shootType: {
   type: BulletType
   lifetime: 1
-  homingPower: 1
-  homingRange: 200
+  followAimSpeed: 360
   speed: 1
   damage: 0
   ammoMultiplier: 1
