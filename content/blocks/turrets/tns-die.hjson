@@ -61,3 +61,9 @@ oil/10
 cryofluid/10
 ]
 }
+coolantMultiplier: 5
+coolant: {
+  type: ConsumeLiquid
+  liquid: liquid-crack
+  amount: 10
+}
