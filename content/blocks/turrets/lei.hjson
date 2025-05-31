@@ -21,16 +21,18 @@ shoot: {
   type: ShootBarrel
   shots: 4
   barrels: [
-    0, -8, 0,
-    8, 0, 90,
-    0, 8, 180,
-    -8, 0, 270
+    0, -16, 0,
+    16, 0, 90,
+    0, 16, 180,
+    -16, 0, 270
   ]
 }
 shootCone: 360
 shootType: {
   type: LaserBulletType
   damage: 140
+  sideLength: 0
+  sideWidth: 0
   lifetime: 18
   length: 200
   pierce: true
