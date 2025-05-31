@@ -52,6 +52,56 @@ ammoTypes: {
     pierceBuilding: true
     absorbable: false
     hitShake: 35
+    shootEffect: [
+      {
+        length: 80
+        cone: 30
+        lifetime: 70
+        particles: 30
+        colorFrom: 787878
+        colorTo: 787878
+        sizeFrom: 15
+        sizeTo: 0
+      }
+      {
+        length: 70
+        cone: 40
+        lifetime: 60
+        particles: 25
+        colorFrom: 787878
+        colorTo: 787878
+        sizeFrom: 12
+        sizeTo: 0
+      }
+      {
+        length: 85
+        line: true
+        cone: 40
+        lifetime: 35
+        particles: 12
+        colorFrom: ffd958
+        colorTo: ff8833
+        lenFrom: 10
+        lenTo: 0
+        strokeFrom: 4
+        strokeTo: 0
+      }
+      {
+        length: 170
+        line: true
+        cone: 40
+        lifetime: 35
+        particles: 15
+        colorFrom: ff6729
+        colorTo: f73d0f
+        sizeFrom: 8
+        sizeTo: 0
+        lenFrom: 10
+        lenTo: 0
+        strokeFrom: 4
+        strokeTo: 0
+      }
+    ]
     despawnEffect: [
       {
         type: WaveEffect
@@ -60,7 +110,6 @@ ammoTypes: {
         sizeTo: 180
         strokeFrom: 5
         strokeTo: 0
-        sizeInterp: pow10Out
       }
       {
         length: 200
@@ -70,8 +119,6 @@ ammoTypes: {
         colorTo: 787878
         sizeFrom: 12
         sizeTo: 0
-        interp: pow10Out
-        sizeInterp: pow5In
       }
       {
         length: 150
@@ -81,8 +128,6 @@ ammoTypes: {
         colorTo: 787878
         sizeFrom: 9
         sizeTo: 0
-        interp: pow10Out
-        sizeInterp: pow3In
       }
       {
         length: 170
@@ -92,8 +137,6 @@ ammoTypes: {
         colorTo: ff8833
         sizeFrom: 10
         sizeTo: 0
-        interp: pow3Out
-        sizeInterp: pow5In
       }
       {
         length: 170
@@ -103,8 +146,6 @@ ammoTypes: {
         colorTo: f73d0f
         sizeFrom: 8
         sizeTo: 0
-        interp: pow3Out
-        sizeInterp: pow5In
       }
     ]
     hitEffect: [
@@ -116,8 +157,6 @@ ammoTypes: {
         colorTo: 787878
         sizeFrom: 4
         sizeTo: 0
-        interp: pow10Out
-        sizeInterp: pow3In
       }
       {
         length: 45
@@ -127,8 +166,6 @@ ammoTypes: {
         colorTo: ff8833
         sizeFrom: 5
         sizeTo: 0
-        interp: pow3Out
-        sizeInterp: pow5In
       }
       {
         length: 50
@@ -138,8 +175,6 @@ ammoTypes: {
         colorTo: f73d0f
         sizeFrom: 5
         sizeTo: 0
-        interp: pow3Out
-        sizeInterp: pow5In
       }
     ]
     parts: [
