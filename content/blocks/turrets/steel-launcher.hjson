@@ -25,9 +25,7 @@ parts: [
 suffix: "-beam"
 progress: reload
 color: ffffff
-mixColor: fffff
 colorTo: ffffff00
-mixColorTo: ffd37f
 under: true
 outline: false
 }
