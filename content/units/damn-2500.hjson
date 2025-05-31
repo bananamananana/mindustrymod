@@ -1,6 +1,6 @@
 name: "Damn 2500"
 description: '''
-truck.
+Damn.
 '''
 type: tank
 template: TankUnitType
@@ -24,27 +24,24 @@ weapons: [
     layerOffset: 1
     alwaysContinuous: true
     rotate: true
-    rotateSpeed: 0.8
+    rotateSpeed: 1
     mirror: false
     shootSound: freebird
     bullet: {
       type: ContinuousLaserBulletType
       largeHit: true
       lifetime: 25
-      shake: 16
+      shake: 2
       length: 300
-      width: 16
+      width: 30
       pierceCap: 1
       damage: 4
       colors: [
         ff0000,
-        ffffff,
         0000ff,
         ffffff
       ]
       hitEffect: none
-      frontLength: 0
-      backLength: 35
     }
   }
 ]
