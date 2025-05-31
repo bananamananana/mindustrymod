@@ -1,0 +1,28 @@
+name: "Damn 2500"
+description: '''
+truck.
+'''
+type: tank
+template: TankUnitType
+shadowElevation: 0.2
+crushDamage: 12
+hitSize: 46
+health: 10000
+armor: 1000
+faceTarget: false
+speed: 3
+accel: 0.3
+drag: 0.4
+drownTimeMultiplier: 6
+rotateSpeed: 1.5
+weapons: [
+]
+parts: [
+  {
+    type: RegionPart
+    outline: false
+    suffix: -headlights
+    blending: additive
+    color: ff0000
+  }
+]
