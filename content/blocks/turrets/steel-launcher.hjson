@@ -16,7 +16,7 @@ shootSound: bang
 reload: 1800
 recoilTime: 240
 recoil: 7
-shake: 7
+shake: 25
 size: 5
 drawer: {
 type: DrawTurret
