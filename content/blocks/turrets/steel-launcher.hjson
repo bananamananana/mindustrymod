@@ -33,7 +33,7 @@ outline: false
 }
 ammoTypes: {
   lead: {
-    type: BasicBulletType
+    type: BulletType
     damage: 10000
     splashDamage: 2000
     splashDamageRadius: 100
@@ -43,6 +43,9 @@ ammoTypes: {
     shrinkX: 0
     speed: 20
     lifetime: 40
+    pierce: true
+    pierceBuilding: true
+    absorbable: false
     hitEffect: [
       blastExplosion
     ]
