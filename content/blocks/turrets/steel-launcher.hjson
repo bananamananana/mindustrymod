@@ -33,7 +33,7 @@ outline: false
 }
 ammoTypes: {
   lead: {
-    type: BulletType
+    type: BasicBulletType
     damage: 10000
     splashDamage: 2000
     splashDamageRadius: 100
@@ -56,6 +56,7 @@ ammoTypes: {
         type: RegionPart
         name: mindustrymod-steel-launcher-beam
         layer: 111
+        outline: false
       }
     ]
   }
