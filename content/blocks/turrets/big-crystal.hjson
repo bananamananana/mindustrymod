@@ -15,8 +15,8 @@ shootEffect: none
 smokeEffect: none
 shootSound: laser
 reload: 160
-recoil: 2
-shake: 2
+recoil: 0
+shake: 8
 size: 10
 shootY: 0
 rotateSpeed: 0
