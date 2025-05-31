@@ -1,5 +1,6 @@
+name: "Baked"
 speedMultiplier: 0.5
-reloadMultiplier: 3
+reloadMultiplier: 0.2
 healthMultiplier: 1.2
 effectChance: 0.08
 effect: {
