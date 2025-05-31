@@ -16,7 +16,6 @@ Fires steel beams over huge distances. May or may not pierce armor, and certain 
 category: turret
 range: 800
 smokeEffect: none
-shootEffect: none
 shootSound: bang
 reload: 1800
 recoilTime: 240
@@ -105,7 +104,7 @@ ammoTypes: {
     despawnEffect: [
       {
         type: WaveEffect
-        lifetime: 50
+        lifetime: 30
         sizeFrom: 0
         sizeTo: 180
         strokeFrom: 5
@@ -113,7 +112,7 @@ ammoTypes: {
       }
       {
         length: 200
-        lifetime: 70
+        lifetime: 30
         particles: 40
         colorFrom: 787878
         colorTo: 787878
@@ -123,7 +122,7 @@ ammoTypes: {
       {
         length: 150
         lifetime: 50
-        particles: 20
+        particles: 25
         colorFrom: 787878
         colorTo: 787878
         sizeFrom: 9
@@ -131,7 +130,7 @@ ammoTypes: {
       }
       {
         length: 170
-        lifetime: 45
+        lifetime: 20
         particles: 12
         colorFrom: ffd958
         colorTo: ff8833
@@ -140,7 +139,7 @@ ammoTypes: {
       }
       {
         length: 170
-        lifetime: 35
+        lifetime: 20
         particles: 15
         colorFrom: ff6729
         colorTo: f73d0f
@@ -151,7 +150,7 @@ ammoTypes: {
     hitEffect: [
       {
         length: 60
-        lifetime: 50
+        lifetime: 20
         particles: 10
         colorFrom: 787878
         colorTo: 787878
@@ -160,7 +159,7 @@ ammoTypes: {
       }
       {
         length: 45
-        lifetime: 45
+        lifetime: 25
         particles: 5
         colorFrom: ffd958
         colorTo: ff8833
@@ -169,7 +168,7 @@ ammoTypes: {
       }
       {
         length: 50
-        lifetime: 35
+        lifetime: 20
         particles: 7
         colorFrom: ff6729
         colorTo: f73d0f
