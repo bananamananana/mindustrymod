@@ -6,7 +6,6 @@ name: "Steve"
 description: '''
 "Flint and steel" - Jack Black, 2025
 '''
-hasPower: false
 category: turret
 range: 200
 reload: 1
