@@ -12,6 +12,7 @@ Trash n' Shit found this contraption in a crackhead's garage. It fires laser bea
 
 lore: zac made this
 '''
+hasShadow: false
 category: turret
 range: 96
 shootEffect: none
