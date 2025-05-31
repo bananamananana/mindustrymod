@@ -1,0 +1,13 @@
+speedMultiplier: 0.5
+reloadMultiplier: 3
+healthMultiplier: 1.2
+effectChance: 0.08
+effect: {
+  length: 30
+  lifetime: 25
+  particles: 4
+  colorFrom: 787878
+  colorTo: 787878
+  sizeFrom: 4
+  sizeTo: 0
+}
