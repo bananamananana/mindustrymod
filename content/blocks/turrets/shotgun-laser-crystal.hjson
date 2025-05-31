@@ -14,24 +14,7 @@ lore: zac made this
 '''
 category: turret
 range: 96
-shootEffect: {
-  type: RadialEffect
-  rotationSpacing: 180
-  rotationOffset: 90
-  effect: {
-    line: true
-    cone: 0
-    length: 0
-    lifetime: 18
-    particles: 1
-    colorFrom: ed72ff
-    colorTo: a645ff
-    lenFrom: 5
-    sizeTo: 0
-    strokeFrom: 3
-    strokeTo: 0
-  }
-}
+shootEffect: none
 smokeEffect: none
 shootSound: laser
 reload: 160
