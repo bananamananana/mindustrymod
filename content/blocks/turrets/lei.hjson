@@ -19,6 +19,7 @@ shootY: 0
 rotateSpeed: 0
 shoot: {
   type: ShootBarrel
+  shots: 4
   barrels: [
     0, 4, 0,
     4, 0, 90,
@@ -27,26 +28,13 @@ shoot: {
   ]
 }
 shootCone: 360
-ammoTypes: {
-  catnip: {
-    type: LaserBulletType
-    damage: 140
-    lifetime: 18
-    length: 200
-    pierce: true
-    hitEffect: [
-      {
-        line: true
-        length: 16
-        lifetime: 10
-        particles: 7
-        lenFrom: 2
-        sizeTo: 0
-        strokeFrom: 1
-        strokeTo: 0
-      }
-    ]
-  }
+shootType: {
+  type: LaserBulletType
+  damage: 140
+  lifetime: 18
+  length: 200
+  pierce: true
+  hitEffect: hitLancer
 }
 consumes: {
   power: 10
