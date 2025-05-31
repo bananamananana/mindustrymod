@@ -4,53 +4,51 @@ catnip/800
 ]
 name: "Ella"
 description: '''
-kithey
+Smokes catnip.
 
 lore: vincent's cat as a turret
 '''
 hasShadow: false
 category: turret
-range: 120
-shootEffect: none
+range: 200
+shootEffect: [
+  {
+    length: 200
+    cone: 30
+    lifetime: 40
+    particles: 5
+    colorFrom: 787878
+    colorTo: 787878
+    sizeFrom: 10
+    sizeTo: 0
+  }
+  {
+    length: 200
+    cone: 45
+    lifetime: 40
+    particles: 3
+    colorFrom: 787878
+    colorTo: 787878
+    sizeFrom: 7
+    sizeTo: 0
+  }
+]
 smokeEffect: none
-shootSound: pipe
-reload: 160
+shootSound: flame2
+reload: 5
 recoil: 2
 shake: 0
 size: 10
-shoot: {
-  shots: 10
-}
-inaccuracy: 45
+inaccuracy: 30
 shootCone: 45
 ammoTypes: {
   catnip: {
-    type: LaserBulletType
-    damage: 110
-    sideLength: 0
-    sideWidth: 0
-    lifetime: 20
-    length: 125
+    type: BulletType
+    damage: 5
+    lifetime: 40
+    speed: 5
     pierce: true
-    colors: [
-      595250,
-      a67e65,
-      cfa362,
-      ffffff
-    ]
-    hitEffect: [
-      {
-        line: true
-        length: 16
-        lifetime: 10
-        particles: 7
-        colorFrom: a67e65
-        colorTo: 595250
-        lenFrom: 2
-        sizeTo: 0
-        strokeFrom: 1
-        strokeTo: 0
-      }
-    ]
+    hitEffect: none
+    despawnEffect: none
   }
 }
