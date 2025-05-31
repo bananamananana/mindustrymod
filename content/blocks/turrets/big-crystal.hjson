@@ -58,3 +58,9 @@ ammoTypes: {
   }
 }
 liquidCapacity: 1000
+coolantMultiplier: 2
+coolant: {
+  type: ConsumeLiquid
+  liquid: liquid-crack
+  amount: 1
+}
