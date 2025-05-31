@@ -1,6 +1,11 @@
 type: ItemTurret
 requirements: [
-// todo add shit
+steel/800
+surge-alloy/250
+thorium/400
+lead/600
+copper/300
+silicon/300
 ]
 name: "Steel Launcher"
 description: '''
@@ -32,7 +37,7 @@ outline: false
 ]
 }
 ammoTypes: {
-  lead: {
+  steel: {
     type: BasicBulletType
     damage: 10000
     splashDamage: 2000
@@ -47,7 +52,58 @@ ammoTypes: {
     pierceBuilding: true
     absorbable: false
     hitEffect: [
-      blastExplosion
+      {
+        type: WaveEffect
+        lifetime: 25
+        sizeFrom: 0
+        sizeTo: 100
+        strokeFrom: 5
+        strokeTo: 0
+      }
+      {
+        length: 30
+        lifetime: 70
+        particles: 40
+        colorFrom: 787878
+        colorTo: 787878
+        sizeFrom: 6
+        sizeTo: 0
+        interp: pow10Out
+        sizeInterp: pow5In
+      }
+      {
+        length: 45
+        lifetime: 60
+        particles: 20
+        colorFrom: 787878
+        colorTo: 787878
+        sizeFrom: 3
+        sizeTo: 0
+        interp: pow10Out
+        sizeInterp: pow3In
+      }
+      {
+        length: 50
+        lifetime: 45
+        particles: 12
+        colorFrom: ffd958
+        colorTo: ff8833
+        sizeFrom: 3
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: pow5In
+      }
+      {
+        length: 50
+        lifetime: 45
+        particles: 15
+        colorFrom: ff6729
+        colorTo: f73d0f
+        sizeFrom: 2
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: pow5In
+      }
     ]
     despawnEffect: none
     despawnHit: true
