@@ -4,7 +4,7 @@ catnip/800
 ]
 name: "Ella"
 description: '''
-Smokes catnip.
+Smokes catnip, makes enemies high.
 
 lore: vincent's cat as a turret
 '''
@@ -12,6 +12,16 @@ hasShadow: false
 category: turret
 range: 200
 shootEffect: [
+  {
+    length: 200
+    cone: 20
+    lifetime: 40
+    particles: 8
+    colorFrom: 787878
+    colorTo: 787878
+    sizeFrom: 12
+    sizeTo: 0
+  }
   {
     length: 200
     cone: 30
@@ -36,10 +46,11 @@ shootEffect: [
 smokeEffect: none
 shootSound: flame2
 reload: 5
-recoil: 2
+recoil: 0.25
+rotateSpeed: 1
 shake: 0
 size: 10
-inaccuracy: 30
+inaccuracy: 20
 shootCone: 45
 ammoTypes: {
   catnip: {
@@ -50,5 +61,6 @@ ammoTypes: {
     pierce: true
     hitEffect: none
     despawnEffect: none
+    status: baked
   }
 }
