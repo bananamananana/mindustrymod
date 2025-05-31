@@ -10,7 +10,7 @@ fucking die
 '''
 category: turret
 range: 200
-reload: 10
+reload: 1
 recoil: 0
 shake: 4
 size: 2
@@ -18,7 +18,7 @@ shootY: 0
 shoot: {
   type: ShootSpread
   shots: 4
-  spread: 45
+  spread: 90
 }
 shootCone: 360
 ammoTypes: {
