@@ -11,10 +11,10 @@ health: 10000
 armor: 1000
 faceTarget: false
 speed: 3
-accel: 0.3
-drag: 0.4
+accel: 0.1
+drag: 0.2
 drownTimeMultiplier: 6
-rotateSpeed: 1.5
+rotateSpeed: 1.25
 weapons: [
 ]
 parts: [
@@ -23,6 +23,6 @@ parts: [
     outline: false
     suffix: -headlights
     blending: additive
-    color: ff0000
+    color: ffffff
   }
 ]
