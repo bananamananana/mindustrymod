@@ -25,8 +25,11 @@ parts: [
 suffix: "-beam"
 progress: reload
 color: ffffff
+mixColor: fffff
 colorTo: ffffff00
+mixColorTo: ffd37f
 under: true
+outline: false
 }
 ]
 }
@@ -40,8 +43,8 @@ ammoTypes: {
     height: 0
     shrinkY: 0
     shrinkX: 0
-    speed: 7
-    lifetime: 115
+    speed: 20
+    lifetime: 40
     hitEffect: [
       blastExplosion
     ]
