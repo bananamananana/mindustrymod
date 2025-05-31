@@ -11,6 +11,28 @@ lore: vincent's cat as a turret
 hasShadow: false
 category: turret
 range: 200
+warmupSpeed: 0.05
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-joint"
+progress: warmup
+color: ffffff00
+colorTo: ffffff
+outline: false
+layerOffset: 0.01
+}
+{
+suffix: "-flame"
+progress: recoil
+color: ffffff00
+colorTo: ffffff
+outline: false
+layerOffset: 0.02
+}
+]
+}
 shootEffect: [
   {
     length: 200
