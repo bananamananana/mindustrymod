@@ -41,7 +41,7 @@ ammoTypes: {
     type: BasicBulletType
     damage: 10000
     splashDamage: 2000
-    splashDamageRadius: 100
+    splashDamageRadius: 180
     width: 0
     height: 0
     shrinkY: 0
@@ -51,17 +51,18 @@ ammoTypes: {
     pierce: true
     pierceBuilding: true
     absorbable: false
-    hitEffect: [
+    hitShake: 35
+    despawnEffect: [
       {
         type: WaveEffect
-        lifetime: 25
+        lifetime: 50
         sizeFrom: 0
-        sizeTo: 100
+        sizeTo: 180
         strokeFrom: 5
         strokeTo: 0
       }
       {
-        length: 30
+        length: 200
         lifetime: 70
         particles: 40
         colorFrom: 787878
@@ -72,41 +73,74 @@ ammoTypes: {
         sizeInterp: pow5In
       }
       {
-        length: 45
-        lifetime: 60
+        length: 150
+        lifetime: 50
         particles: 20
         colorFrom: 787878
         colorTo: 787878
-        sizeFrom: 3
+        sizeFrom: 4
         sizeTo: 0
         interp: pow10Out
         sizeInterp: pow3In
       }
       {
-        length: 50
+        length: 170
         lifetime: 45
         particles: 12
         colorFrom: ffd958
         colorTo: ff8833
-        sizeFrom: 3
+        sizeFrom: 5
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: pow5In
+      }
+      {
+        length: 170
+        lifetime: 35
+        particles: 15
+        colorFrom: ff6729
+        colorTo: f73d0f
+        sizeFrom: 5
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: pow5In
+      }
+    ]
+    hitEffect: [
+      {
+        length: 60
+        lifetime: 50
+        particles: 10
+        colorFrom: 787878
+        colorTo: 787878
+        sizeFrom: 4
+        sizeTo: 0
+        interp: pow10Out
+        sizeInterp: pow3In
+      }
+      {
+        length: 45
+        lifetime: 45
+        particles: 5
+        colorFrom: ffd958
+        colorTo: ff8833
+        sizeFrom: 5
         sizeTo: 0
         interp: pow3Out
         sizeInterp: pow5In
       }
       {
         length: 50
-        lifetime: 45
-        particles: 15
+        lifetime: 35
+        particles: 7
         colorFrom: ff6729
         colorTo: f73d0f
-        sizeFrom: 2
+        sizeFrom: 5
         sizeTo: 0
         interp: pow3Out
         sizeInterp: pow5In
       }
     ]
-    despawnEffect: none
-    despawnHit: true
     parts: [
       {
         type: RegionPart
