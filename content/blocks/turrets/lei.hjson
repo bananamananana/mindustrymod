@@ -27,10 +27,14 @@ shootType: {
   speed: 10
   damage: 180
   ammoMultiplier: 1
-  hitEffect: hitLancer
+  hitEffect: [
+    sparkExplosion,
+    sparkExplosion,
+    smeltsmoke
+  ]
   despawnEffect: none
-  trailEffect: sparkShoot
-  trailInterval: 5
+  trailEffect: hitLancer
+  trailChange: 0.75
 }
 consumes: {
   power: 7
