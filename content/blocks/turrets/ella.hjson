@@ -1,0 +1,56 @@
+type: ItemTurret
+requirements: [
+catnip/800
+]
+name: "Ella"
+description: '''
+kithey
+
+lore: vincent's cat as a turret
+'''
+hasShadow: false
+category: turret
+range: 120
+shootEffect: none
+smokeEffect: none
+shootSound: pipe
+reload: 160
+recoil: 2
+shake: 0
+size: 10
+shoot: {
+  shots: 10
+}
+inaccuracy: 45
+shootCone: 45
+ammoTypes: {
+  catnip: {
+    type: LaserBulletType
+    damage: 110
+    sideLength: 0
+    sideWidth: 0
+    lifetime: 20
+    length: 125
+    pierce: true
+    colors: [
+      595250,
+      a67e65,
+      cfa362,
+      ffffff
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 16
+        lifetime: 10
+        particles: 7
+        colorFrom: a67e65
+        colorTo: 595250
+        lenFrom: 2
+        sizeTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+}
