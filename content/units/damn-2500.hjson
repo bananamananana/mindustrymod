@@ -17,7 +17,7 @@ drownTimeMultiplier: 6
 rotateSpeed: 1.25
 weapons: [
   {
-    name: leech-beam
+    name: freedom-laser
     x: 0
     y: 0
     shootY: 0
@@ -35,7 +35,7 @@ weapons: [
       length: 300
       width: 30
       pierceCap: 1
-      damage: 4
+      damage: 100
       colors: [
         ff0000,
         0000ff,
