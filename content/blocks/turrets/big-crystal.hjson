@@ -1,0 +1,59 @@
+type: ItemTurret
+requirements: [
+
+]
+name: "EXTREMELY LARGE FUCKING CRYSTAL THAT IS MADE FROM SMALLER CRYSTALS BECAUSE TRASH N' SHIT IS STUPID"
+description: '''
+A contraption made from many crackhead crystals. Fires in all directions.
+
+"We still have no idea how it works, but it's cooler." - Trash n' Shit Ceos
+'''
+hasShadow: false
+category: turret
+range: 96
+shootEffect: none
+smokeEffect: none
+shootSound: laser
+reload: 160
+recoil: 2
+shake: 2
+size: 10
+rotateSpeed: 0
+shoot: {
+  type: ShootSpread
+  shots: 60
+  spread: 6
+}
+shootCone: 360
+ammoTypes: {
+  metaglass: {
+    type: LaserBulletType
+    damage: 180
+    sideLength: 0
+    sideWidth: 0
+    lifetime: 18
+    length: 100
+    pierce: true
+    colors: [
+      a645ff,
+      ed72ff,
+      ffbaf8,
+      ffffff
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 16
+        lifetime: 10
+        particles: 7
+        colorFrom: ed72ff
+        colorTo: a645ff
+        lenFrom: 2
+        sizeTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+}
+liquidCapacity: 1000
