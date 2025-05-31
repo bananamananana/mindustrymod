@@ -1,0 +1,63 @@
+type: ItemTurret
+requirements: [
+  copper/10000
+]
+name: "TNS-69 : THE SHITTER"
+description: '''
+fucking die
+
+"Oops, we glued 4 duos together." - Trash n' Shit Ceos
+'''
+category: turret
+range: 200
+reload: 10
+recoil: 0
+shake: 4
+size: 2
+shootY: 0
+shoot: {
+  type: ShootSpread
+  shots: 4
+  spread: 45
+}
+shootCone: 360
+ammoTypes: {
+  copper: {
+    type: LaserBulletType
+    damage: 1000
+    sideLength: 0
+    sideWidth: 0
+    lifetime: 18
+    length: 200
+    pierce: true
+    colors: [
+      b8705c,
+      d99d73,
+      eac2a9,
+      ffffff
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 16
+        lifetime: 10
+        particles: 7
+        colorFrom: eac2a9
+        colorTo: b8705c
+        lenFrom: 2
+        sizeTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+}
+liquidCapacity: 1000
+consumes: {
+liquids: [
+water/10
+slag/10
+oil/10
+cryofluid/10
+]
+}
