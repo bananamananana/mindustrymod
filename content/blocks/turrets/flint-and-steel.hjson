@@ -1,0 +1,33 @@
+type: PowerTurret
+requirements: [
+  steel/1
+]
+name: "Steve"
+description: '''
+"Flint and steel" - Jack Black, 2025
+'''
+hasPower: false
+category: turret
+range: 200
+reload: 1
+recoil: 0
+shake: 0
+size: 4
+shootY: 0
+inaccuracy: 360
+velocityRnd: 0.7
+shootCone: 360
+rotateSpeed: 0
+shootEffect: none
+smokeEffect: none
+shootType: {
+  type: BulletType
+  trailEffect: fire
+  trailChance: 0.1
+  speed: 4
+  lifetime: 50
+  effect: burning
+  effectDuration: 120
+  hitEffect: none
+  despawnEffect: none
+}
