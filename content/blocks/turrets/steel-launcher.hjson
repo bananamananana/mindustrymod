@@ -51,6 +51,7 @@ ammoTypes: {
     pierceBuilding: true
     absorbable: false
     hitShake: 35
+    hitSound: pipe
     shootEffect: [
       {
         length: 80
