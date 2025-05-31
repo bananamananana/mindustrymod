@@ -16,6 +16,37 @@ drag: 0.2
 drownTimeMultiplier: 6
 rotateSpeed: 1.25
 weapons: [
+  {
+    name: leech-beam
+    x: 0
+    y: 0
+    shootY: 0
+    layerOffset: 1
+    alwaysContinuous: true
+    rotate: true
+    rotateSpeed: 0.8
+    mirror: false
+    shootSound: freebird
+    bullet: {
+      type: ContinuousLaserBulletType
+      largeHit: true
+      lifetime: 25
+      shake: 16
+      length: 300
+      width: 16
+      pierceCap: 1
+      damage: 4
+      colors: [
+        ff0000,
+        ffffff,
+        0000ff,
+        ffffff
+      ]
+      hitEffect: none
+      frontLength: 0
+      backLength: 35
+    }
+  }
 ]
 parts: [
   {
