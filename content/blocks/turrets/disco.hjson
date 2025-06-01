@@ -17,7 +17,8 @@ parts: [
 suffix: "-barrel-l"
 progress: recoil
 heatProgress: recoil
-layerOffset: -1.1
+layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: -8.75
 recoilIndex: 0
@@ -26,7 +27,8 @@ recoilIndex: 0
 suffix: "-barrel-l"
 progress: recoil
 heatProgress: recoil
-layerOffset: -1.1
+layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: -5.25
 recoilIndex: 1
@@ -35,7 +37,8 @@ recoilIndex: 1
 suffix: "-barrel-l"
 progress: recoil
 heatProgress: recoil
-layerOffset: -1.1
+layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: -1.75
 recoilIndex: 2
@@ -44,16 +47,18 @@ recoilIndex: 2
 suffix: "-barrel-r"
 progress: recoil
 heatProgress: recoil
-layerOffset: -1.1
+layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: 8.75
-recoilIndex: 3
+recoilIndex: 5
 }
 {
 suffix: "-barrel-r"
 progress: recoil
 heatProgress: recoil
-layerOffset: -1.1
+layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: 5.25
 recoilIndex: 4
@@ -62,10 +67,11 @@ recoilIndex: 4
 suffix: "-barrel-r"
 progress: recoil
 heatProgress: recoil
-layerOffset: -1.1
+layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: 1.75
-recoilIndex: 5
+recoilIndex: 3
 }
 ]
 }
