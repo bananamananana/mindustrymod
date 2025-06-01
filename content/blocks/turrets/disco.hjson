@@ -1,0 +1,132 @@
+type: ItemTurret
+requirements: [
+catnip/550
+]
+name: "Disco"
+description: '''
+Fires compacted catnip incendiary rounds at high speed. Highly inaccurate.
+'''
+hasShadow: false
+category: turret
+range: 300
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-barrel-l"
+progress: recoil
+under: true
+moveY: -1
+x: -8.75
+recoilIndex: 0
+}
+{
+suffix: "-barrel-l"
+progress: recoil
+under: true
+moveY: -1
+x: -5.25
+recoilIndex: 1
+}
+{
+suffix: "-barrel-l"
+progress: recoil
+under: true
+moveY: -1
+x: -1.75
+recoilIndex: 2
+}
+{
+suffix: "-barrel-r"
+progress: recoil
+under: true
+moveY: -1
+x: 8.75
+recoilIndex: 3
+}
+{
+suffix: "-barrel-r"
+progress: recoil
+under: true
+moveY: -1
+x: 5.25
+recoilIndex: 4
+}
+{
+suffix: "-barrel-r"
+progress: recoil
+under: true
+moveY: -1
+x: 1.75
+recoilIndex: 5
+}
+]
+}
+shootEffect: [
+  {
+    length: 80
+    cone: 10
+    lifetime: 15
+    particles: 4
+    colorFrom: 787878
+    colorTo: 787878
+    sizeFrom: 5
+    sizeTo: 0
+  }
+  {
+    length: 80
+    cone: 13
+    lifetime: 12
+    particles: 5
+    colorFrom: 787878
+    colorTo: 787878
+    sizeFrom: 4
+    sizeTo: 0
+  }
+]
+shoot: {
+  type: ShootBarrel
+  barrels: [
+    -8.75, 0, 0,
+    -5.25, 0, 0,
+    -1.75, 0, 0,
+    1.75, 0, 0,
+    5.25, 0, 0,
+    8.75, 0, 0
+  ]
+}
+smokeEffect: none
+shootSound: bang
+reload: 20
+recoil: 1
+rotateSpeed: 2.5
+shake: 0
+size: 6
+inaccuracy: 15
+shootCone: 30
+ammoPerShot: 2
+ammoTypes: {
+  catnip: {
+    type: BasicBulletType
+    ammoMultiplier: 1
+    damage: 80
+    lifetime: 60
+    speed: 5
+    width: 4
+    height: 6
+    colorBack: 47663c
+    colorFront: 628c54
+    hitEffect: fireHit
+    despawnEffect: [
+      fireHit,
+      fire,
+      fireSmoke,
+      fireSmoke,
+    ]
+    status: burning
+    incendAmount: 2
+    incendChance: 0.85
+    trailEffect: incendTrail
+    trailChance: 0.35
+  }
+}
