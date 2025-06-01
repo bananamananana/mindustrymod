@@ -9,54 +9,61 @@ Fires compacted catnip incendiary rounds at high speed. Highly inaccurate.
 hasShadow: false
 category: turret
 range: 300
+heatColor: ffffff
 drawer: {
 type: DrawTurret
 parts: [
 {
 suffix: "-barrel-l"
 progress: recoil
+heatProgress: recoil
 under: true
-moveY: -1
+moveY: -4
 x: -8.75
 recoilIndex: 0
 }
 {
 suffix: "-barrel-l"
 progress: recoil
+heatProgress: recoil
 under: true
-moveY: -1
+moveY: -4
 x: -5.25
 recoilIndex: 1
 }
 {
 suffix: "-barrel-l"
 progress: recoil
+heatProgress: recoil
 under: true
-moveY: -1
+moveY: -4
 x: -1.75
 recoilIndex: 2
 }
 {
 suffix: "-barrel-r"
 progress: recoil
+heatProgress: recoil
 under: true
-moveY: -1
+moveY: -4
 x: 8.75
 recoilIndex: 3
 }
 {
 suffix: "-barrel-r"
 progress: recoil
+heatProgress: recoil
 under: true
-moveY: -1
+moveY: -4
 x: 5.25
 recoilIndex: 4
 }
 {
 suffix: "-barrel-r"
 progress: recoil
+heatProgress: recoil
 under: true
-moveY: -1
+moveY: -4
 x: 1.75
 recoilIndex: 5
 }
@@ -97,9 +104,9 @@ shootEffect: [
   }
 ]
 smokeEffect: none
-shootSound: bang
+shootSound: shootBig
 reload: 7
-recoil: 1
+recoil: 1.5
 rotateSpeed: 2.5
 shake: 1
 size: 6
@@ -115,8 +122,8 @@ ammoTypes: {
     speed: 5
     width: 9
     height: 15
-    colorBack: 47663c
-    colorFront: 628c54
+    backColor: 47663c
+    frontColor: 628c54
     hitEffect: fireHit
     despawnEffect: [
       fireHit,
