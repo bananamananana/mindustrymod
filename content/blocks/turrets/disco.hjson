@@ -18,6 +18,7 @@ suffix: "-barrel-l"
 progress: recoil
 heatProgress: recoil
 layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: -8.75
 recoilIndex: 0
@@ -27,6 +28,7 @@ suffix: "-barrel-l"
 progress: recoil
 heatProgress: recoil
 layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: -5.25
 recoilIndex: 1
@@ -36,6 +38,7 @@ suffix: "-barrel-l"
 progress: recoil
 heatProgress: recoil
 layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: -1.75
 recoilIndex: 2
@@ -45,6 +48,7 @@ suffix: "-barrel-r"
 progress: recoil
 heatProgress: recoil
 layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: 8.75
 recoilIndex: 3
@@ -54,6 +58,7 @@ suffix: "-barrel-r"
 progress: recoil
 heatProgress: recoil
 layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: 5.25
 recoilIndex: 4
@@ -63,6 +68,7 @@ suffix: "-barrel-r"
 progress: recoil
 heatProgress: recoil
 layerOffset: -0.01
+heatLayerOffset: -0.009
 moveY: -4
 x: 1.75
 recoilIndex: 5
@@ -80,7 +86,7 @@ shoot: {
     8.75, 0, 0
   ]
 }
-recoils: 6
+recoils: 5
 shootEffect: [
   {
     length: 80
