@@ -17,7 +17,7 @@ parts: [
 suffix: "-barrel-l"
 progress: recoil
 heatProgress: recoil
-under: true
+layerOffset: -0.01
 moveY: -4
 x: -8.75
 recoilIndex: 0
@@ -26,7 +26,7 @@ recoilIndex: 0
 suffix: "-barrel-l"
 progress: recoil
 heatProgress: recoil
-under: true
+layerOffset: -0.01
 moveY: -4
 x: -5.25
 recoilIndex: 1
@@ -35,7 +35,7 @@ recoilIndex: 1
 suffix: "-barrel-l"
 progress: recoil
 heatProgress: recoil
-under: true
+layerOffset: -0.01
 moveY: -4
 x: -1.75
 recoilIndex: 2
@@ -44,7 +44,7 @@ recoilIndex: 2
 suffix: "-barrel-r"
 progress: recoil
 heatProgress: recoil
-under: true
+layerOffset: -0.01
 moveY: -4
 x: 8.75
 recoilIndex: 3
@@ -53,7 +53,7 @@ recoilIndex: 3
 suffix: "-barrel-r"
 progress: recoil
 heatProgress: recoil
-under: true
+layerOffset: -0.01
 moveY: -4
 x: 5.25
 recoilIndex: 4
@@ -62,14 +62,10 @@ recoilIndex: 4
 suffix: "-barrel-r"
 progress: recoil
 heatProgress: recoil
-under: true
+layerOffset: -0.01
 moveY: -4
 x: 1.75
 recoilIndex: 5
-}
-{
-suffix: ""
-layerOffset: 0.01
 }
 ]
 }
@@ -111,6 +107,7 @@ smokeEffect: none
 shootSound: shootBig
 reload: 7
 recoil: 1.5
+recoilTime: 25
 rotateSpeed: 2.5
 shake: 1
 size: 6
