@@ -80,7 +80,7 @@ shoot: {
     8.75, 0, 0
   ]
 }
-recoils: 5
+recoils: 6
 shootEffect: [
   {
     length: 80
