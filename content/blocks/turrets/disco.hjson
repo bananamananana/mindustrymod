@@ -67,6 +67,10 @@ moveY: -4
 x: 1.75
 recoilIndex: 5
 }
+{
+suffix: ""
+layerOffset: 0.01
+}
 ]
 }
 shoot: {
