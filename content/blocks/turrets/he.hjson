@@ -23,6 +23,7 @@ shootCone: 15
 ammoTypes: {
   cryofluid: {
     type: LiquidBulletType
+    liquid: cryofluid
     ammoMultiplier: 1
     damage: 10
     lifetime: 50
