@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: "Blast Furnace"
+description: '''
+Makes steel.
+'''
+size: 3
+consumes: {
+  power: 1.5
+  items: [
+    lead/2
+    coal/1
+  ]
+}
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  DrawDefault
+  {
+    type: DrawSoftParticles
+    alpha: 0.1
+    particleRad: 12
+    particleSize: 10
+    particleLife: 200
+    particles: 20
+    color: ffc74d
+    color2: ff7735
+  }
+]
+craftTime: 40
+outputItems: [
+   steel/2
+]
+category: crafting
+requirements: [
+  brick/65
+  iron/50
+  copper/75
+]
