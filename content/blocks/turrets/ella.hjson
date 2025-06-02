@@ -11,8 +11,9 @@ lore: vincent's cat as a turret
 hasShadow: false
 category: turret
 range: 200
-warmupSpeed: 0.2
+warmupSpeed: 0.5
 minWarmup: 1
+linearWarmup: true
 drawer: {
 type: DrawTurret
 parts: [
