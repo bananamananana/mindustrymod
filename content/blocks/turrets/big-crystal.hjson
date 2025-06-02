@@ -1,6 +1,8 @@
 type: ItemTurret
 requirements: [
-
+metaglass/200
+silicon/600
+surge-alloy/150
 ]
 name: "EXTREMELY LARGE FUCKING CRYSTAL THAT IS MADE FROM SMALLER CRYSTALS BECAUSE TRASH N' SHIT IS STUPID"
 description: '''
