@@ -117,4 +117,78 @@ ammoTypes: {
       }
     ]
   }
+  crack: {
+    type: BulletType
+    rangeOverride: 350
+    damage: 5
+    lifetime: 40
+    speed: 5
+    pierce: true
+    hitEffect: none
+    despawnEffect: none
+    status: baked
+    statusDuration: 900
+    shootEffect: [
+      {
+        length: 350
+        cone: 20
+        lifetime: 66
+        particles: 8
+        colorFrom: ebebeb
+        colorTo: ebebeb
+        sizeFrom: 12
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: linear
+      }
+      {
+        length: 310
+        cone: 32
+        lifetime: 55
+        particles: 6
+        colorFrom: cacaca
+        colorTo: cacaca
+        sizeFrom: 7
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: linear
+      }
+      {
+        length: 285
+        cone: 45
+        lifetime: 48
+        particles: 6
+        colorFrom: b3b3b3
+        colorTo: b3b3b3
+        sizeFrom: 5
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: linear
+      }
+      {
+        length: 180
+        cone: 37
+        lifetime: 45
+        particles: 8
+        colorFrom: ff8042
+        colorTo: f54c22
+        sizeFrom: 6
+        sizeTo: 0
+        interp: pow5Out
+        sizeInterp: linear
+      }
+      {
+        length: 200
+        cone: 37
+        lifetime: 40
+        particles: 8
+        colorFrom: ff8042
+        colorTo: f54c22
+        sizeFrom: 5
+        sizeTo: 0
+        interp: pow5Out
+        sizeInterp: linear
+      }
+    ]
+  }
 }
