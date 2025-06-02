@@ -1,0 +1,68 @@
+type: ItemTurret
+requirements: [
+metaglass/200
+crack/200
+]
+name: "Crack-Infused Magical Crystal That Blasts Chunks Instead Of Shooting Lasers"
+description: '''
+The MiraLax turret. Magically turns crack into shit.
+
+"We infused it with crack, and now it launches shit." - Trash n' Shit Ceos
+'''
+hasShadow: false
+category: turret
+range: 250
+shootEffect: none
+smokeEffect: none
+shootSound: pipe
+reload: 160
+recoil: 5
+shake: 2
+size: 3
+shoot: {
+  shots: 6
+}
+inaccuracy: 15
+velocityRnd: 0.12
+shootCone: 45
+ammoTypes: {
+  crack: {
+    type: BasicBulletType
+    ammoMultiplier: 1
+    damage: 100
+    splashDamage: 66
+    splashDamageRadius: 18
+    lifetime: 50
+    speed: 5
+    width: 15
+    height: 15
+    backColor: 3f1d17
+    frontColor: 5b2b23
+    hitEffect: fireHit
+    despawnEffect: [
+      blastExplosion
+      {
+        length: 20
+        lifetime: 25
+        particles: 4
+        colorFrom: 5b2b23
+        colorTo: 5b2b23
+        sizeFrom: 4
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: linear
+      }
+    ]
+    status: muddy
+    trailEffect: none
+  }
+}
+ammoPerShot: 10
+ammoCapacity: 40
+liquidCapacity: 300
+coolantMultiplier: 3.5
+coolant: {
+  type: ConsumeLiquid
+  liquid: liquid-crack
+  amount: 0.3
+}
