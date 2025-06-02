@@ -1,0 +1,38 @@
+type: ItemTurret
+requirements: [
+crack/400
+]
+name: "the"
+description: '''
+he likes pickles
+'''
+hasShadow: false
+category: turret
+range: 250
+shootEffect: none
+smokeEffect: none
+shootSound: pipe
+reload: 60
+shake: 4
+size: 4
+inaccuracy: 15
+velocityRnd: 0.25
+shootCone: 15
+shoot: {
+  shots: 6
+}
+ammoTypes: {
+  crack: {
+    type: BasicBulletType
+    width: 8
+    height: 14
+    backColor: ad2a2a
+    frontColor: e94040
+    ammoMultiplier: 1
+    damage: 100
+    lifetime: 50
+    speed: 5
+  }
+}
+ammoPerShot: 6
+liquidCapacity: 300
