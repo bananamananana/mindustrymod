@@ -23,11 +23,11 @@ shoot: {
   shots: 6
 }
 inaccuracy: 15
-velocityRnd: 0.12
+velocityRnd: 0.22
 shootCone: 45
 ammoTypes: {
   crack: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     ammoMultiplier: 1
     damage: 100
     splashDamage: 66
@@ -38,16 +38,16 @@ ammoTypes: {
     height: 15
     backColor: 3f1d17
     frontColor: 5b2b23
-    hitEffect: fireHit
+    hitEffect: none
     despawnEffect: [
       blastExplosion
       {
-        length: 20
+        length: 28
         lifetime: 25
-        particles: 4
+        particles: 7
         colorFrom: 5b2b23
         colorTo: 5b2b23
-        sizeFrom: 4
+        sizeFrom: 7
         sizeTo: 0
         interp: pow3Out
         sizeInterp: linear
