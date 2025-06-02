@@ -58,26 +58,26 @@ ammoTypes: {
       {
         length: 200
         cone: 20
-        lifetime: 40
+        lifetime: 50
         particles: 8
         colorFrom: 787878
         colorTo: 787878
         sizeFrom: 12
         sizeTo: 0
         interp: pow3Out
-        sizeInterp: pow3Out
+        sizeInterp: pow9Out
       }
       {
         length: 200
         cone: 32
-        lifetime: 30
+        lifetime: 35
         particles: 6
         colorFrom: 787878
         colorTo: 787878
         sizeFrom: 7
         sizeTo: 0
         interp: pow3Out
-        sizeInterp: pow3Out
+        sizeInterp: pow9Out
       }
       {
         length: 200
@@ -89,31 +89,31 @@ ammoTypes: {
         sizeFrom: 5
         sizeTo: 0
         interp: pow3Out
-        sizeInterp: pow3Out
+        sizeInterp: pow9Out
       }
       {
-        length: 200
+        length: 120
         cone: 37
-        lifetime: 20
+        lifetime: 30
         particles: 8
         colorFrom: ff852d
         colorTo: eb571c
         sizeFrom: 6
         sizeTo: 0
-        interp: pow3Out
-        sizeInterp: pow3Out
+        interp: pow5Out
+        sizeInterp: pow7Out
       }
       {
-        length: 200
+        length: 100
         cone: 37
-        lifetime: 17
+        lifetime: 22
         particles: 8
         colorFrom: ffc547
         colorTo: f57920
         sizeFrom: 5
         sizeTo: 0
-        interp: pow3Out
-        sizeInterp: pow3Out
+        interp: pow5Out
+        sizeInterp: pow9Out
       }
     ]
   }
