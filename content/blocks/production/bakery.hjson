@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: "Bakery"
+description: '''
+Cooks bricks.
+'''
+size: 2
+consumes: {
+  power: 2.5
+  items: [
+    sand/2
+  ]
+}
+craftTime: 20
+outputItems: [
+   brick/1
+]
+category: crafting
+requirements: [
+  lead/65
+  metaglass/50
+  copper/50
+]
