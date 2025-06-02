@@ -5,11 +5,18 @@ Cooks bricks.
 '''
 size: 2
 consumes: {
-  power: 2.5
+  power: 1.5
   items: [
     sand/2
   ]
 }
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: ff9a7e
+  }
+]
 craftTime: 20
 outputItems: [
    brick/1
