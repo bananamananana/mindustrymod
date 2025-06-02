@@ -16,9 +16,12 @@ loopSound: freebird
 reload: 3
 shake: 4
 size: 4
-inaccuracy: 15
-velocityRnd: 0.22
+inaccuracy: 4
+velocityRnd: 0.1
 shootCone: 15
+shoot: {
+  shots: 2
+}
 ammoTypes: {
   cryofluid: {
     type: LiquidBulletType
