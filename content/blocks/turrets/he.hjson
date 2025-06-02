@@ -1,6 +1,5 @@
 type: LiquidTurret
 requirements: [
-metaglass/200
 crack/200
 ]
 name: "he"
@@ -16,7 +15,7 @@ shootSound: none
 loopSound: freebird
 reload: 3
 shake: 4
-size: 3
+size: 4
 inaccuracy: 15
 velocityRnd: 0.22
 shootCone: 15
