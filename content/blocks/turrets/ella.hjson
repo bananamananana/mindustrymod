@@ -4,14 +4,15 @@ catnip/800
 ]
 name: "Ella"
 description: '''
-Smokes catnip, makes enemies high.
+Smokes things, makes enemies high.
 
 lore: vincent's cat as a turret
 '''
 hasShadow: false
 category: turret
 range: 200
-warmupSpeed: 0.05
+warmupSpeed: 0.2
+minWarmup: 1
 drawer: {
 type: DrawTurret
 parts: [
@@ -33,38 +34,6 @@ layerOffset: 0.02
 }
 ]
 }
-shootEffect: [
-  {
-    length: 200
-    cone: 20
-    lifetime: 40
-    particles: 8
-    colorFrom: 787878
-    colorTo: 787878
-    sizeFrom: 12
-    sizeTo: 0
-  }
-  {
-    length: 200
-    cone: 30
-    lifetime: 40
-    particles: 5
-    colorFrom: 787878
-    colorTo: 787878
-    sizeFrom: 10
-    sizeTo: 0
-  }
-  {
-    length: 200
-    cone: 45
-    lifetime: 40
-    particles: 3
-    colorFrom: 787878
-    colorTo: 787878
-    sizeFrom: 7
-    sizeTo: 0
-  }
-]
 smokeEffect: none
 shootSound: flame2
 reload: 5
@@ -84,5 +53,67 @@ ammoTypes: {
     hitEffect: none
     despawnEffect: none
     status: baked
+    shootEffect: [
+      {
+        length: 200
+        cone: 20
+        lifetime: 40
+        particles: 8
+        colorFrom: 787878
+        colorTo: 787878
+        sizeFrom: 12
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: pow3Out
+      }
+      {
+        length: 200
+        cone: 32
+        lifetime: 30
+        particles: 6
+        colorFrom: 787878
+        colorTo: 787878
+        sizeFrom: 7
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: pow3Out
+      }
+      {
+        length: 200
+        cone: 45
+        lifetime: 25
+        particles: 6
+        colorFrom: 787878
+        colorTo: 787878
+        sizeFrom: 5
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: pow3Out
+      }
+      {
+        length: 200
+        cone: 37
+        lifetime: 20
+        particles: 8
+        colorFrom: ff852d
+        colorTo: eb571c
+        sizeFrom: 6
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: pow3Out
+      }
+      {
+        length: 200
+        cone: 37
+        lifetime: 17
+        particles: 8
+        colorFrom: ffc547
+        colorTo: f57920
+        sizeFrom: 5
+        sizeTo: 0
+        interp: pow3Out
+        sizeInterp: pow3Out
+      }
+    ]
   }
 }
