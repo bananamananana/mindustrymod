@@ -1,0 +1,33 @@
+type: LiquidTurret
+requirements: [
+metaglass/200
+crack/200
+]
+name: "he"
+description: '''
+
+'''
+hasShadow: false
+category: turret
+range: 250
+shootEffect: none
+smokeEffect: none
+shootSound: none
+loopSound: freebird
+reload: 3
+shake: 4
+size: 3
+inaccuracy: 15
+velocityRnd: 0.22
+shootCone: 15
+ammoTypes: {
+  cryofluid: {
+    type: LiquidBulletType
+    ammoMultiplier: 1
+    damage: 10
+    lifetime: 50
+    speed: 5
+    status: freezing
+  }
+}
+liquidCapacity: 300
