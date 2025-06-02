@@ -1,6 +1,7 @@
 type: ItemTurret
 requirements: [
-
+metaglass/200
+silicon/200
 ]
 name: "Magical Crystal Laser Shotgun That Fires Mysterious Purple Beams"
 description: '''
