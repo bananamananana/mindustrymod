@@ -65,7 +65,7 @@ ammoTypes: {
         sizeFrom: 12
         sizeTo: 0
         interp: pow3Out
-        sizeInterp: pow9Out
+        sizeInterp: linear
       }
       {
         length: 200
