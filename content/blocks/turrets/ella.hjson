@@ -119,8 +119,8 @@ ammoTypes: {
   }
   crack: {
     type: BulletType
-    rangeOverride: 350
-    damage: 5
+    rangeChange: 150
+    damage: 12
     lifetime: 40
     speed: 5
     pierce: true
@@ -135,7 +135,7 @@ ammoTypes: {
         lifetime: 66
         particles: 8
         colorFrom: ebebeb
-        colorTo: ebebeb
+        colorTo: 787878
         sizeFrom: 12
         sizeTo: 0
         interp: pow3Out
@@ -147,7 +147,7 @@ ammoTypes: {
         lifetime: 55
         particles: 6
         colorFrom: cacaca
-        colorTo: cacaca
+        colorTo: 787878
         sizeFrom: 7
         sizeTo: 0
         interp: pow3Out
@@ -159,7 +159,7 @@ ammoTypes: {
         lifetime: 48
         particles: 6
         colorFrom: b3b3b3
-        colorTo: b3b3b3
+        colorTo: 787878
         sizeFrom: 5
         sizeTo: 0
         interp: pow3Out
