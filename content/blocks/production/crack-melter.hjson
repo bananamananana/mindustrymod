@@ -22,9 +22,10 @@ drawer: [
   DrawDefault
 ]
 craftTime: 30
-outputFluids: [
+outputLiquids: [
    crack/0.2
 ]
+liquidCapacity: 200
 category: crafting
 requirements: [
   crack/20
