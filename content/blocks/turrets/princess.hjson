@@ -24,7 +24,7 @@ ammoTypes: {
     type: LaserBulletType
     ammoMultiplier: 1
     damage: 200
-    drawSize: 20
+    width: 100
     sideAngle: 45
     lifetime: 30
     length: 240
