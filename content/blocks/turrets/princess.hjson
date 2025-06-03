@@ -11,7 +11,7 @@ category: turret
 range: 240
 shootEffect: none
 smokeEffect: none
-shootSound: mediumCannon
+shootSound: explosionbig
 reload: 90
 recoil: 2
 shake: 4
@@ -24,9 +24,8 @@ ammoTypes: {
     type: LaserBulletType
     ammoMultiplier: 1
     damage: 200
-    width: 20
-    sideLength: 50
-    sideWidth: 10
+    drawSize: 20
+    sideAngle: 45
     lifetime: 30
     length: 240
     pierce: true
