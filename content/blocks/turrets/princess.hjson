@@ -16,8 +16,16 @@ reload: 90
 recoil: 2
 shake: 4
 size: 6
-shoot: {
-  shots: 10
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-barrel"
+progress: recoil
+under: true
+moveY: -13
+}
+]
 }
 ammoTypes: {
   catnip: {
@@ -26,6 +34,8 @@ ammoTypes: {
     damage: 200
     width: 100
     sideAngle: 45
+    sideLength: 30
+    sideWidth: 15
     lifetime: 30
     length: 240
     pierce: true
@@ -38,9 +48,9 @@ ammoTypes: {
     hitEffect: [
       {
         line: true
-        length: 16
-        lifetime: 10
-        particles: 7
+        length: 60
+        lifetime: 15
+        particles: 10
         colorFrom: ffffff
         colorTo: af8578
         lenFrom: 2
