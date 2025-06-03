@@ -23,7 +23,7 @@ drawer: [
 ]
 craftTime: 30
 outputLiquids: [
-   crack/0.2
+   liquid-crack/0.2
 ]
 liquidCapacity: 200
 category: crafting
