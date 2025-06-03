@@ -1,0 +1,55 @@
+type: ItemTurret
+requirements: [
+catnip/300
+]
+name: "Fluffy Piece Of Shit"
+description: '''
+Kithey...
+'''
+hasShadow: false
+category: turret
+range: 240
+shootEffect: none
+smokeEffect: none
+shootSound: mediumCannon
+reload: 90
+recoil: 2
+shake: 4
+size: 6
+shoot: {
+  shots: 10
+}
+ammoTypes: {
+  catnip: {
+    type: LaserBulletType
+    ammoMultiplier: 1
+    damage: 200
+    width: 20
+    sideLength: 50
+    sideWidth: 10
+    lifetime: 30
+    length: 240
+    pierce: true
+    colors: [
+      734b34,
+      815c49,
+      af8578,
+      ffffff
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 16
+        lifetime: 10
+        particles: 7
+        colorFrom: ffffff
+        colorTo: af8578
+        lenFrom: 2
+        sizeTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+}
+ammoPerShot: 10
