@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: "Crack Melter"
+description: '''
+a uqjsdieuwoqjdo vjdncsmxoi
+'''
+size: 3
+consumes: {
+  power: 2
+  items: [
+    crack/1
+  ]
+}
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: liquid-crack
+  }
+  DrawDefault
+]
+craftTime: 30
+outputFluids: [
+   crack/0.2
+]
+category: crafting
+requirements: [
+  crack/20
+  metaglass/120
+  copper/80
+  steel/40
+]
