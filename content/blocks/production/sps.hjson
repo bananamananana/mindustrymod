@@ -20,10 +20,6 @@ drawer: [
     drawLiquid: antimatter
   }
   {
-    type: DrawLiquidTile
-    drawLiquid: antimatter
-  }
-  {
     type: DrawMultiWeave
     fadeWeave: true
     glowColor: 00000000
@@ -35,7 +31,7 @@ drawer: [
 ]
 craftTime: 60
 outputLiquids: [
-   liquid-crack/0.05
+   antimatter/0.05
 ]
 liquidCapacity: 200
 category: crafting
