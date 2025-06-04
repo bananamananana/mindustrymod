@@ -31,9 +31,9 @@ drawer: [
 ]
 craftTime: 60
 outputLiquids: [
-   antimatter/0.05
+   antimatter/0.025
 ]
-liquidCapacity: 200
+liquidCapacity: 1000
 category: crafting
 requirements: [
   plutonium/100
