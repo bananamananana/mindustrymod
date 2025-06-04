@@ -1,8 +1,6 @@
 name: "Neutronium"
 description: '''
 oh good heavens
-
-Decays after exactly 16 minutes.
 '''
 color: 000000
 radioactivity: 10
