@@ -2,9 +2,7 @@ name: "Antimatter Soda"
 description: '''
 fuck
 
-Decays after exactly 16 minutes.
-
-It's radioactive because of the neutronium, not because of the antimatter, same with the reason it decays.
+It's radioactive because of the neutronium, not because of the antimatter.
 '''
 color: 00ffff
 radioactivity: 10
