@@ -1,0 +1,47 @@
+type: GenericCrafter
+name: "Superpressurized State Changer"
+description: '''
+Mechanism
+'''
+size: 5
+consumes: {
+  power: 40
+  items: [
+    plutonium/4
+  ]
+}
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: antimatter
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: antimatter
+  }
+  {
+    type: DrawMultiWeave
+    fadeWeave: true
+    glowColor: 00000000
+    weaveColor: ff00ff
+    rotateSpeed: 2
+    rotateSpeed2: 1
+  }
+  DrawDefault
+]
+craftTime: 60
+outputLiquids: [
+   liquid-crack/0.05
+]
+liquidCapacity: 200
+category: crafting
+requirements: [
+  plutonium/100
+  metaglass/250
+  steel/120
+  surge-alloy/60
+]
