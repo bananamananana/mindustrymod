@@ -8,7 +8,7 @@ consumes: {
   power: 10
   liquids: [
     cryofluid/5
-    liquid-neutronium/1
+    npf-neutronium/1
   ]
 }
 conductivePower: true
