@@ -1,0 +1,4 @@
+type: Floor
+name: "Crack Crack"
+itemDrop: coal
+playerUnmineable: true
