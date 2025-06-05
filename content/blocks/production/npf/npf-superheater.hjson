@@ -18,6 +18,8 @@ outputLiquids: [
    npf-heat/1.1
 ]
 liquidOutputDirections: [2]
+updateEffect: fire
+updateEffectChance: 0.1
 liquidCapacity: 240
 category: crafting
 requirements: [
