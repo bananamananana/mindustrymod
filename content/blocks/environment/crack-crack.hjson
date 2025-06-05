@@ -2,3 +2,6 @@ type: Floor
 name: "Crack Crack"
 itemDrop: coal
 playerUnmineable: true
+oreDefault: true
+oreScale: 22.45
+oreThreshold: 0.8
