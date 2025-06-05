@@ -20,16 +20,39 @@ drawer: [
     type: DrawRegion
     suffix: -fan
     spinSprite: true
-    rotateSpeed: 3
+    rotateSpeed: 6
   }
   {
     type: DrawRegion
     suffix: -fan
     spinSprite: true
-    rotateSpeed: 3
+    rotateSpeed: 6
+    rotation: 22.5
+  }
+  {
+    type: DrawRegion
+    suffix: -fan
+    spinSprite: true
+    rotateSpeed: 6
     rotation: 45
   }
+  {
+    type: DrawRegion
+    suffix: -fan
+    spinSprite: true
+    rotateSpeed: 6
+    rotation: 67.5
+  }
   DrawDefault
+  {
+    type: DrawParticles
+    color: d4f0ff
+    alpha: 0.6
+    particleSize: 4
+    particles: 15
+    particleRad: 12
+    particleLife: 60
+  }
 ]
 outputLiquids: [
    npf-compression/1.05
