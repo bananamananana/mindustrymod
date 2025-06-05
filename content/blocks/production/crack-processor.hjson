@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: "Crack Processor"
+description: '''
+
+'''
+size: 2
+consumes: {
+  power: 1.5
+  items: [
+    coca/2
+  ]
+}
+craftEffect: smeltsmoke
+drawer: [
+  DrawDefault
+  {
+    type: DrawFlame
+    flameColor: ffef99
+  }
+]
+craftTime: 30
+outputItems: [
+   crack/1
+]
+category: crafting
+requirements: [
+  lead/65
+  metaglass/50
+  copper/50
+]
