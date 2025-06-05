@@ -1,0 +1,57 @@
+type: ItemTurret
+requirements: [
+steel/100
+brick/200
+]
+name: "Primitive Thrower"
+description: '''
+zac if you don't add a description im gonna
+'''
+category: turret
+range: 350
+smokeEffect: none
+shootSound: pipe
+reload: 300
+recoilTime: 240
+recoil: 4
+shake: 8
+size: 3
+drawer: {
+type: DrawTurret
+basePrefix: brick-
+parts: [
+{
+suffix: "-brick"
+progress: reload
+color: ffffff
+colorTo: ffffff00
+under: true
+outline: false
+moveY: -2.25
+}
+]
+}
+ammoTypes: {
+  brick: {
+    type: BasicBulletType
+    damage: 750
+    spin: 1
+    width: 0
+    height: 0
+    shrinkY: 0
+    shrinkX: 0
+    speed: 20
+    lifetime: 40
+    absorbable: false
+    hitShake: 10
+    hitSound: bang
+    parts: [
+      {
+        type: RegionPart
+        name: mindustrymod-primitive-thrower-brick
+        layer: 111
+        outline: false
+      }
+    ]
+  }
+}
