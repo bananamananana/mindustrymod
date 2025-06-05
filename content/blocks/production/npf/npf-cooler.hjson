@@ -20,8 +20,8 @@ outputItems: [
 ]
 craftTime: 30
 craftEffect: none
-updateEffect: steamCoolSmoke
-updateEffectChance: 0.25
+updateEffect: smeltsmoke
+updateEffectChance: 0.3
 liquidCapacity: 240
 category: crafting
 requirements: [
