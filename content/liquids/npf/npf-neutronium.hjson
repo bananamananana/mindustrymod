@@ -1,3 +1,4 @@
 name: "Gaseous Neutronium"
 hidden: true
+gas: true
 color: ffffff
