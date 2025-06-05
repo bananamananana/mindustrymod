@@ -73,13 +73,14 @@ drawer: [
   {
     type: DrawFrames
     frames: 4
+    sine: false
   }
   {
     type: DrawPistons
     sides: 1
     sinScl: 5
     sinMag: 2.75
-    angleOffset: -90
+    angleOffset: 90
     suffix: -piston1
   }
   {
@@ -87,7 +88,7 @@ drawer: [
     sides: 1
     sinScl: 5
     sinMag: 2.75
-    angleOffset: -90
+    angleOffset: 90
     suffix: -piston2
     sinOffset: 120
   }
@@ -96,7 +97,7 @@ drawer: [
     sides: 1
     sinScl: 5
     sinMag: 2.75
-    angleOffset: -90
+    angleOffset: 90
     suffix: -piston3
     sinOffset: 240
   }
