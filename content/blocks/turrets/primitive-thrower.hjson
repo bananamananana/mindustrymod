@@ -13,7 +13,7 @@ smokeEffect: none
 shootSound: pipe
 reload: 120
 recoilTime: 240
-recoil: 4
+recoil: 1
 shake: 8
 size: 3
 outlineColor: 00000000
@@ -52,7 +52,7 @@ ammoTypes: {
         layer: 111
         outline: false
         progress: life
-        moveRot: 360
+        moveRot: 90
       }
     ]
   }
