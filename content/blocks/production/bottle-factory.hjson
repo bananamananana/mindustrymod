@@ -10,12 +10,12 @@ recipes: [
       items: [
         metaglass/1
       ]
+      power: 2
     }
     output: {
       items: [
         bottle-t1/1
       ]
-      power: 2
     }
     craftTime: 60
   }
@@ -25,12 +25,12 @@ recipes: [
         metaglass/2
         titanium/1
       ]
+      power: 2
     }
     output: {
       items: [
         bottle-t2/1
       ]
-      power: 2
     }
     craftTime: 60
   }
@@ -40,12 +40,12 @@ recipes: [
         metaglass/2
         surge-alloy/1
       ]
+      power: 2
     }
     output: {
       items: [
         bottle-t3/1
       ]
-      power: 2
     }
     craftTime: 60
   }
@@ -55,12 +55,12 @@ recipes: [
         metaglass/2
         neutronium/1
       ]
+      power: 2
     }
     output: {
       items: [
         bottle-t4/1
       ]
-      power: 2
     }
     craftTime: 60
   }
