@@ -8,18 +8,18 @@ recipes: [
   {
     input: {
       items: [
-        bottle-t1/1
+        mindustrymod-bottle-t1/1
         thorium/1
       ]
       fluids: [
-        compressed-air/0.2
+        mindustrymod-compressed-air/0.2
         water/0.2
       ]
       power: 2
     }
     output: {
       items: [
-        thorium-soda/1
+        mindustrymod-thorium-soda/1
       ]
     }
     craftTime: 60
@@ -27,18 +27,18 @@ recipes: [
   {
     input: {
       items: [
-        bottle-t2/1
-        uranium/1
+        mindustrymod-bottle-t2/1
+        mindustrymod-uranium/1
       ]
       fluids: [
-        compressed-air/0.2
+        mindustrymod-compressed-air/0.2
         water/0.2
       ]
       power: 2
     }
     output: {
       items: [
-        uranium-soda/1
+        mindustrymod-uranium-soda/1
       ]
     }
     craftTime: 60
@@ -46,18 +46,18 @@ recipes: [
   {
     input: {
       items: [
-        bottle-t3/1
-        plutonium/1
+        mindustrymod-bottle-t3/1
+        mindustrymod-plutonium/1
       ]
       fluids: [
-        compressed-air/0.2
+        mindustrymod-compressed-air/0.2
         water/0.2
       ]
       power: 2
     }
     output: {
       items: [
-        plutonium-soda/1
+        mindustrymod-plutonium-soda/1
       ]
     }
     craftTime: 60
@@ -65,18 +65,18 @@ recipes: [
   {
     input: {
       items: [
-        bottle-t4/1
+        mindustrymod-bottle-t4/1
       ]
       fluids: [
-        compressed-air/0.2
-        antimatter/0.005
-        water/0.2
+        mindustrymod-compressed-air/0.2
+        mindustrymod-antimatter/0.005
+        mindustrymod-water/0.2
       ]
       power: 2
     }
     output: {
       items: [
-        antimatter-soda/1
+        mindustrymod-antimatter-soda/1
       ]
     }
     craftTime: 60
