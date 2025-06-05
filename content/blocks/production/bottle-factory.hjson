@@ -49,43 +49,21 @@ recipes: [
     }
     craftTime: 60
   }
-]
-drawer: [
   {
-    type: DrawRegion
-    suffix: -bottom
+    input: {
+      items: [
+        metaglass/2
+        neutronium/1
+      ]
+      power: 2
+    }
+    output: {
+      items: [
+        bottle-t4/1
+      ]
+    }
+    craftTime: 60
   }
-  {
-    type: DrawFrames
-    frames: 4
-  }
-  {
-    type: DrawPistons
-    sides: 1
-    sinScl: 5
-    sinMag: 2.75
-    angleOffset: -90
-    suffix: -piston1
-  }
-  {
-    type: DrawPistons
-    sides: 1
-    sinScl: 5
-    sinMag: 2.75
-    angleOffset: -90
-    suffix: -piston2
-    sinOffset: 120
-  }
-  {
-    type: DrawPistons
-    sides: 1
-    sinScl: 5
-    sinMag: 2.75
-    angleOffset: -90
-    suffix: -piston3
-    sinOffset: 240
-  }
-  DrawDefault
 ]
 category: crafting
 requirements: [
