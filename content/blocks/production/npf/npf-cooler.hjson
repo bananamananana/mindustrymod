@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: "NPF Cooler"
+description: '''
+Cools liquid neutronium. Requires insane amounts of listerene.
+'''
+size: 6
+consumes: {
+  power: 10
+  liquids: [
+    cryofluid/10
+    liquid-neutronium/1
+  ]
+}
+conductivePower: true
+drawer: [
+  DrawDefault
+]
+outputItems: [
+  neutronium/1
+]
+craftTime: 60
+liquidCapacity: 240
+category: crafting
+requirements: [
+]
