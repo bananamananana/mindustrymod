@@ -1,6 +1,6 @@
 type: ItemTurret
 requirements: [
-  copper/10000
+  neutronium/1000
 ]
 name: "TNS-69 : THE SHITTER"
 description: '''
