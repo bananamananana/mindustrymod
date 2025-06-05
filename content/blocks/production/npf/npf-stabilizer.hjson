@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: "NPF Stabilizer"
+description: '''
+Stabilizes the neutron star contained within the NPF.
+'''
+size: 2
+consumes: {
+  power: 5
+  liquids: [
+    liquid-crack/2
+  ]
+}
+conductivePower: true
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawSoftParticles
+    alpha: 0.6
+    particleRad: 6
+    particleSize: 8
+    particleLife: 200
+    particles: 20
+    color: 29ff89
+    color2: 20c21a
+  }
+  DrawDefault
+]
+outputLiquids: [
+   npf-stabilization/1.1
+]
+liquidOutputDirections: [2]
+liquidCapacity: 240
+category: crafting
+requirements: [
+]
