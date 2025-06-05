@@ -69,7 +69,7 @@ recipes: [
       ]
       fluids: [
         mindustrymod-compressed-air/0.2
-        mindustrymod-antimatter/0.005
+        mindustrymod-antimatter/0.05
         mindustrymod-water/0.2
       ]
       power: 2
