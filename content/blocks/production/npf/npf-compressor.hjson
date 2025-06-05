@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: "NPF Compressor"
+description: '''
+Provides huge amounts of pressure to the Neutronium Production Facility.
+'''
+size: 2
+consumes: {
+  power: 5
+  liquids: [
+    liquid-crack/2
+  ]
+}
+conductivePower: true
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawRegion
+    suffix: -fan
+    spinSprite: true
+    rotateSpeed: 3
+  }
+  {
+    type: DrawRegion
+    suffix: -fan
+    spinSprite: true
+    rotateSpeed: 3
+    rotation: 45
+  }
+  DrawDefault
+]
+outputLiquids: [
+   npf-compression/1.05
+]
+liquidOutputDirections: [0]
+liquidCapacity: 240
+category: crafting
+requirements: [
+]
