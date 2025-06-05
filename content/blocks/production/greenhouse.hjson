@@ -1,0 +1,53 @@
+type: multicraft.MultiCrafter
+name: "Greenhouse"
+description: '''
+Grows plants.
+'''
+size: 4
+recipes: [
+  {
+    input: {
+      fluids: [
+        water/0.25
+      ]
+      power: 1
+    }
+    output: {
+      items: [
+        mindustrymod-catnip/10
+      ]
+    }
+    craftTime: 300
+  }
+  {
+    input: {
+      fluids: [
+        water/0.25
+      ]
+      power: 1
+    }
+    output: {
+      items: [
+        mindustrymod-coca/10
+      ]
+    }
+    craftTime: 300
+  }
+]
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: water
+  }
+  DrawDefault
+]
+category: crafting
+requirements: [
+  thorium/100
+  metaglass/100
+  lead/120
+]
