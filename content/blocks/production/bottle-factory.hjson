@@ -65,6 +65,43 @@ recipes: [
     craftTime: 60
   }
 ]
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawFrames
+    frames: 4
+  }
+  {
+    type: DrawPistons
+    sides: 1
+    sinScl: 5
+    sinMag: 2.75
+    angleOffset: -90
+    suffix: -piston1
+  }
+  {
+    type: DrawPistons
+    sides: 1
+    sinScl: 5
+    sinMag: 2.75
+    angleOffset: -90
+    suffix: -piston2
+    sinOffset: 120
+  }
+  {
+    type: DrawPistons
+    sides: 1
+    sinScl: 5
+    sinMag: 2.75
+    angleOffset: -90
+    suffix: -piston3
+    sinOffset: 240
+  }
+  DrawDefault
+]
 category: crafting
 requirements: [
   titanium/100
