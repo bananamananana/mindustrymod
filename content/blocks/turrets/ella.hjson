@@ -47,6 +47,7 @@ shootCone: 45
 ammoTypes: {
   catnip: {
     type: BulletType
+    ammoMultiplier: 5
     damage: 5
     lifetime: 40
     speed: 5
@@ -119,6 +120,7 @@ ammoTypes: {
   }
   crack: {
     type: BulletType
+    ammoMultiplier: 8
     rangeChange: 150
     damage: 12
     lifetime: 40
