@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: "NPF Superheater"
+description: '''
+Provides heat to the NPF.
+'''
+size: 2
+consumes: {
+  power: 5
+  liquids: [
+    slag/5
+  ]
+}
+conductivePower: true
+drawer: [
+  DrawDefault
+]
+outputLiquids: [
+   npf-heat/1.1
+]
+liquidOutputDirections: [2]
+liquidCapacity: 240
+category: crafting
+requirements: [
+]
