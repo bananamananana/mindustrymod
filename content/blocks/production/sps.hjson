@@ -38,6 +38,6 @@ category: crafting
 requirements: [
   plutonium/100
   metaglass/250
-  steel/120
+  neutronium/10
   surge-alloy/60
 ]
