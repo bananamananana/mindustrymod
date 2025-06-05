@@ -31,7 +31,7 @@ drawer: [
   DrawDefault
 ]
 outputLiquids: [
-   liquid-neutronium/1
+   liquid-neutronium/1.1
 ]
 liquidOutputDirections: [3]
 liquidCapacity: 240
