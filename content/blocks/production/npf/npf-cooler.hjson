@@ -19,6 +19,9 @@ outputItems: [
   neutronium/1
 ]
 craftTime: 60
+craftEffect: none
+updateEffect: steamCoolSmoke
+updateEffectChance: 0.25
 liquidCapacity: 240
 category: crafting
 requirements: [
