@@ -28,7 +28,7 @@ recipes: [
     }
     output: {
       items: [
-        mindustrymod-crack/10
+        mindustrymod-coca/10
       ]
     }
     craftTime: 300
