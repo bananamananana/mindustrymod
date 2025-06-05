@@ -12,6 +12,7 @@ consumes: {
     npf-stabilization/1
   ]
 }
+conductivePower: true
 drawer: [
   {
     type: DrawRegion
@@ -32,6 +33,7 @@ drawer: [
 outputLiquids: [
    liquid-neutronium/1
 ]
+liquidOutputDirections: [3]
 liquidCapacity: 240
 category: crafting
 requirements: [
