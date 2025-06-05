@@ -7,7 +7,7 @@ size: 8
 consumes: {
   power: 10
   liquids: [
-    cryofluid/10
+    cryofluid/5
     liquid-neutronium/1
   ]
 }
@@ -18,7 +18,7 @@ drawer: [
 outputItems: [
   neutronium/1
 ]
-craftTime: 60
+craftTime: 30
 craftEffect: none
 updateEffect: steamCoolSmoke
 updateEffectChance: 0.25
