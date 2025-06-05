@@ -42,6 +42,7 @@ drawer: [
   {
     type: DrawLiquidTile
     drawLiquid: water
+    alpha: 0.3
   }
   DrawDefault
 ]
