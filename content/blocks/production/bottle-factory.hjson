@@ -1,0 +1,73 @@
+type: multicraft.MultiCrafter
+name: "Bottle Factory"
+description: '''
+Makes bottles.
+'''
+size: 4
+recipes: [
+  {
+    input: {
+      items: [
+        metaglass/1
+      ]
+    }
+    output: {
+      items: [
+        bottle-t1/1
+      ]
+      power: 2
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      items: [
+        metaglass/2
+        titanium/1
+      ]
+    }
+    output: {
+      items: [
+        bottle-t2/1
+      ]
+      power: 2
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      items: [
+        metaglass/2
+        surge-alloy/1
+      ]
+    }
+    output: {
+      items: [
+        bottle-t3/1
+      ]
+      power: 2
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      items: [
+        metaglass/2
+        neutronium/1
+      ]
+    }
+    output: {
+      items: [
+        bottle-t4/1
+      ]
+      power: 2
+    }
+    craftTime: 60
+  }
+]
+category: crafting
+requirements: [
+  titanium/100
+  metaglass/70
+  copper/80
+]
