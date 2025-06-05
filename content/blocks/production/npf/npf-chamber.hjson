@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: "NPF Chamber"
+description: '''
+Produces neutronium. Requires compression, stabilization, and heating modules, as well as a product cooler to function.
+'''
+size: 4
+consumes: {
+  power: 25
+  liquids: [
+    npf-compression/2
+    npf-heat/1
+    npf-stabilization/1
+  ]
+}
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawSoftParticles
+    alpha: 0.6
+    particleRad: 12
+    particleSize: 10
+    particleLife: 200
+    particles: 20
+    color: ffffff
+    color2: 6fa3ff
+  }
+  DrawDefault
+]
+outputLiquids: [
+   liquid-neutronium/1
+]
+liquidCapacity: 240
+category: crafting
+requirements: [
+]
