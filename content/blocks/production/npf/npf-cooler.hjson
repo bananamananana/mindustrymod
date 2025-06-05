@@ -3,7 +3,7 @@ name: "NPF Cooler"
 description: '''
 Cools liquid neutronium. Requires insane amounts of listerene.
 '''
-size: 6
+size: 8
 consumes: {
   power: 10
   liquids: [
