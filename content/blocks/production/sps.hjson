@@ -31,7 +31,7 @@ drawer: [
 ]
 craftTime: 60
 outputLiquids: [
-   antimatter/0.025
+   antimatter/0.25
 ]
 liquidCapacity: 1000
 category: crafting
