@@ -1,3 +1,4 @@
 name: "Molten Steel Fresh From The Furnace"
 hidden: true
 color: ff0000
+coolant: false
