@@ -1,7 +1,6 @@
 type: AttributeCrafter
 name: "Large Plastanium Press"
-boostScale: true
-
+boostScale: 0.15
 description: '''
 least funny thing in this mod
 '''
