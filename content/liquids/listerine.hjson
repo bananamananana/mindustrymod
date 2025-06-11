@@ -1,0 +1,11 @@
+name: "Listerine"
+description: '''
+  luke
+'''
+color: 00ffff
+heatCapacity: 1.5
+temperature: 0.25
+effect: freezing
+color: c1e8f5
+lightColor: c1e8f5
+boilPoint: 0.55
