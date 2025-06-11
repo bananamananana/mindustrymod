@@ -1,0 +1,10 @@
+name: "Liquid Hellfire"
+description: '''
+  This is possibly the worst liquid you could ever make. Will vaporize basically anything in its way.
+'''
+color: ff0000
+heatCapacity: 10
+temperature: 0
+effect: hellfire-status
+lightColor: ff0000
+boilPoint: 10
