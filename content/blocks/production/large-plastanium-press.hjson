@@ -1,0 +1,56 @@
+type: AttributeCrafter
+name: "Large Plastanium Press"
+boostScale: true
+
+description: '''
+least funny thing in this mod
+'''
+size: 3
+consumes: {
+  power: 5
+  items: [
+    titanium/4
+  ]
+  liquids: [
+    oil/0.3
+  ]
+}
+drawer: [
+  DrawDefault
+  {
+    type: DrawFade
+    suffix: -lights
+  }
+  {
+    type: DrawFade
+    alpha: 1
+    scale: 1
+  }
+]
+craftEffect: {
+  type: RadialEffect
+  rotationOffset: 45
+  effect: {
+    length: 40
+    colorFrom: f1e479
+    colorTo: a2a2a2
+    sizeFrom: 2
+    sizeTo: 0
+    cone: 15
+    particles: 10
+    lifetime: 30
+  }
+}
+updateEffect: plasticburn
+craftTime: 60
+liquidCapacity: 100
+outputItems: [
+   plastanium/3
+]
+category: crafting
+requirements: [
+  silicon/100
+  lead/160
+  graphite/90
+  plastanium/80
+]
