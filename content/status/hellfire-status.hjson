@@ -7,7 +7,7 @@ reloadMultiplier: 0.2
 healthMultiplier: 0.5
 effectChance: 0.1
 damage: 10
-transitionDamage: 30
+transitionDamage: 400
 affinities: [
   tarred
   freezing
