@@ -1,0 +1,35 @@
+name: "Hellfire"
+description: '''
+You're burning... but freezing... but... holy shit.
+'''
+speedMultiplier: 0.5
+reloadMultiplier: 0.2
+healthMultiplier: 0.5
+effectChance: 0.1
+damage: 10
+transitionDamage: 30
+affinities: [
+  tarred
+  freezing
+  burning
+]
+effect: [
+  {
+    length: 30
+    lifetime: 30
+    particles: 3
+    colorFrom: ffff50
+    colorTo: ff0000
+    sizeFrom: 6
+    sizeTo: 0
+  }
+  {
+    length: 30
+    lifetime: 30
+    particles: 3
+    colorFrom: 5050ff
+    colorTo: 00ffff
+    sizeFrom: 6
+    sizeTo: 0
+  }
+]
