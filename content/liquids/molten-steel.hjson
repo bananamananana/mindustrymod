@@ -1,3 +1,4 @@
 name: "Molten Steel"
 color: ff0000
 temperature: 1
+coolant: false
