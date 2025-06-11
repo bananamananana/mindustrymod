@@ -6,6 +6,5 @@ color: 00ffff
 heatCapacity: 3
 temperature: 0.1
 effect: freezing
-color: c1e8f5
 lightColor: c1e8f5
 boilPoint: 0.55
