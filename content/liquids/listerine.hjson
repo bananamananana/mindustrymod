@@ -2,7 +2,7 @@ name: "Listerine"
 description: '''
   luke
 '''
-color: 00ffff
+color: 0050ff
 heatCapacity: 1.5
 temperature: 0.25
 effect: freezing
