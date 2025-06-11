@@ -2,7 +2,9 @@ type: AttributeCrafter
 name: "Large Plastanium Press"
 boostScale: 0.15
 description: '''
-least funny thing in this mod
+Presses titanium and oil into plastic. More efficient in hot locations.
+
+"least funny thing in this mod" - vincent
 '''
 size: 3
 consumes: {
