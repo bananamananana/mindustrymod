@@ -3,7 +3,7 @@ description: '''
   This is possibly the worst liquid you could ever make. Will vaporize basically anything in its way.
 '''
 color: ff0000
-heatCapacity: 10
+heatCapacity: 20
 temperature: 0
 effect: hellfire-status
 lightColor: ff0000
