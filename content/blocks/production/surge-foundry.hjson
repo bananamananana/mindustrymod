@@ -19,11 +19,6 @@ drawer: [
     suffix: -bottom
   }
   {
-    type: DrawShape
-    radius: 5
-    color: ffc999
-  }
-  {
     type: DrawSoftParticles
     alpha: 0.9
     particleRad: 12
