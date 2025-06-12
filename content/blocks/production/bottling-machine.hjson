@@ -1,7 +1,7 @@
 type: multicraft.MultiCrafter
-name: "HL Soda Factory"
+name: "Bottling Machine"
 description: '''
-Produces Half Life Soda from dangerous materials. Have fun.
+
 '''
 size: 4
 recipes: [
@@ -84,7 +84,7 @@ recipes: [
 ]
 category: crafting
 requirements: [
-  thorium/100
+  copper/100
   metaglass/100
   lead/120
 ]
