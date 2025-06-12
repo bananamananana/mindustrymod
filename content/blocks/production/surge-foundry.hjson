@@ -1,0 +1,54 @@
+type: GenericCrafter
+name: "Surge Foundry"
+description: '''
+Makes surge alloy with better efficiency. Produces slag as a by-product.
+'''
+size: 4
+consumes: {
+  power: 5.5
+  items: [
+    copper/3
+    lead/3
+    titanium/2
+    silicon/2
+  ]
+}
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawShape
+    radius: 5
+    color: ffc999
+  }
+  {
+    type: DrawSoftParticles
+    alpha: 0.1
+    particleRad: 12
+    particleSize: 10
+    particleLife: 100
+    particles: 20
+    color: ffff00
+    color2: ff5000
+  }
+  DrawDefault
+]
+craftTime: 40
+outputItems: [
+   surge-alloy/2
+]
+itemCapacity: 30
+liquidCapacity: 60
+ignoreLiquidFullness: true
+outputLiquids: [
+  slag/0.1
+]
+category: crafting
+requirements: [
+  surge-alloy/40
+  lead/120
+  thorium/100
+  metaglass/30
+]
