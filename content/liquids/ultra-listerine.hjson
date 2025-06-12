@@ -3,7 +3,7 @@ description: '''
   this will probably kill luke
 '''
 color: 00ffff
-heatCapacity: 3
+heatCapacity: 6.5
 temperature: 0.1
 effect: freezing
 lightColor: c1e8f5
