@@ -1,0 +1,56 @@
+type: multicraft.MultiCrafter
+name: "Listerine Bottle"
+description: '''
+Makes listerine and variants. LukeDidThat likes it.
+'''
+size: 2
+recipes: [
+  {
+    input: {
+      fluids: [
+        cryofluid/0.2
+      ]
+      items: [
+        mindustrymod-mint/1
+      ]
+    }
+    output: {
+      fluids: [
+        mindustrymod-listerine/0.2
+      ]
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      fluids: [
+        mindustrymod-listerine/0.2
+        mindustrymod-antimatter/0.05
+      ]
+    }
+    output: {
+      fluids: [
+        mindustrymod-ultra-listerine/0.2
+      ]
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      fluids: [
+        mindustrymod-ultra-listerine/0.2
+        mindustrymod-ultra-hot-sauce/1
+      ]
+    }
+    output: {
+      fluids: [
+        mindustrymod-hellfire/0.2
+      ]
+    }
+    craftTime: 60
+  }
+]
+category: crafting
+requirements: [
+  metaglass/100
+]
