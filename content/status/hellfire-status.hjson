@@ -5,10 +5,10 @@ You're burning... but freezing... but... holy shit.
 speedMultiplier: 0.5
 reloadMultiplier: 0.2
 healthMultiplier: 0.5
-effectChance: 0.1
-damage: 10
+effectChance: 0.2
+damage: 65
 color: ff0000
-transitionDamage: 200
+transitionDamage: 600
 affinities: [
   tarred
   freezing
@@ -19,7 +19,7 @@ effect: [
   {
     length: 30
     lifetime: 30
-    particles: 3
+    particles: 5
     colorFrom: ffff50
     colorTo: ff0000
     sizeFrom: 6
@@ -28,7 +28,7 @@ effect: [
   {
     length: 30
     lifetime: 30
-    particles: 3
+    particles: 5
     colorFrom: 5050ff
     colorTo: 00ffff
     sizeFrom: 6
