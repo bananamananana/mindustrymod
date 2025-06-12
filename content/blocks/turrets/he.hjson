@@ -23,9 +23,9 @@ shoot: {
   shots: 2
 }
 ammoTypes: {
-  cryofluid: {
+  listerine: {
     type: LiquidBulletType
-    liquid: cryofluid
+    liquid: listerine
     ammoMultiplier: 1
     damage: 10
     lifetime: 50
