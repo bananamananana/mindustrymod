@@ -25,7 +25,7 @@ drawer: [
   }
   {
     type: DrawSoftParticles
-    alpha: 0.1
+    alpha: 0.9
     particleRad: 12
     particleSize: 10
     particleLife: 100
@@ -35,10 +35,11 @@ drawer: [
   }
   DrawDefault
 ]
-craftTime: 40
+craftTime: 60
 outputItems: [
    surge-alloy/2
 ]
+craftEffect: smeltsmoke
 itemCapacity: 30
 liquidCapacity: 60
 ignoreLiquidFullness: true
