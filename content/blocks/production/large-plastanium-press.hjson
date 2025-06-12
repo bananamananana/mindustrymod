@@ -22,23 +22,18 @@ drawer: [
     type: DrawFade
     suffix: -lights
   }
-  {
-    type: DrawFade
-    alpha: 1
-    scale: 1
-  }
 ]
 craftEffect: {
   type: RadialEffect
   rotationOffset: 45
   effect: {
-    length: 40
+    length: 20
     colorFrom: f1e479
     colorTo: a2a2a2
-    sizeFrom: 2
+    sizeFrom: 5
     sizeTo: 0
     cone: 15
-    particles: 10
+    particles: 4
     lifetime: 30
   }
 }
