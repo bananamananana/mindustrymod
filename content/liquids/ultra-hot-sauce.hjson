@@ -1,0 +1,8 @@
+name: "Ultra Hot Sauce"
+description: '''
+
+'''
+color: ff3000
+temperature: 3
+effect: melting
+lightColor: ff3000
