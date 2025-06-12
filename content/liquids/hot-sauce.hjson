@@ -1,0 +1,8 @@
+name: "Hot Sauce"
+description: '''
+
+'''
+color: ff5000
+temperature: 2
+effect: burning
+lightColor: ff5000
