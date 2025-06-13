@@ -1,0 +1,23 @@
+type: HeatCrafter
+name: "DamnCo Blast Furnace"
+description: '''
+Makes molten steel. Can be overclocked up to 4x efficiency.
+'''
+heatRequirement: 80
+maxEfficiency: 4
+size: 4
+consumes: {
+  power: 10
+  items: [
+    iron/80
+    coal/20
+  ]
+}
+craftTime: 600
+liquidCapacity: 600
+outputLiquids: [
+  dbf-steel/1
+]
+category: crafting
+requirements: [
+]
