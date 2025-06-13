@@ -1,0 +1,20 @@
+type: GenericCrafter
+name: "Air Compressor"
+description: '''
+Compresses air.
+'''
+size: 3
+consumes: {
+  power: 1.5
+}
+liquidCapacity: 200
+outputLiquids: [
+  compressed-air/0.2
+]
+ambientSound: compressor
+ambientSoundVolume: 0.07
+category: crafting
+requirements: [
+  steel/60
+  silicon/20
+]
