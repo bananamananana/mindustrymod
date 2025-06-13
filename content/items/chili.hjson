@@ -1,0 +1,6 @@
+name: "Chili"
+description: '''
+spicy (not really)
+'''
+color: ff0000
+flammability: 1
