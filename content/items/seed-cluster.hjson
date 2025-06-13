@@ -1,0 +1,6 @@
+name: "Seed Cluster"
+description: '''
+seed
+'''
+color: 50ff00
+flammability: 0.2
