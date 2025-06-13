@@ -12,7 +12,7 @@ outputLiquids: [
   compressed-air/0.25
 ]
 ambientSound: compressor
-ambientSoundVolume: 0.07
+ambientSoundVolume: 0.2
 category: crafting
 requirements: [
   steel/60
