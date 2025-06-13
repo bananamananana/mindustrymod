@@ -10,6 +10,7 @@ recipes: [
     input: {
       fluids: [
         slag/0.2
+      ]
     }
     output: {
       heat: 20
@@ -19,6 +20,7 @@ recipes: [
     input: {
       fluids: [
         mindustrymod-hot-sauce/0.2
+      ]
     }
     output: {
       heat: 40
@@ -28,6 +30,7 @@ recipes: [
     input: {
       fluids: [
         mindustrymod-ultra-hot-sauce/0.2
+      ]
     }
     output: {
       heat: 80
@@ -37,6 +40,7 @@ recipes: [
     input: {
       fluids: [
         mindustrymod-hellfire/0.2
+      ]
     }
     output: {
       heat: 2560
