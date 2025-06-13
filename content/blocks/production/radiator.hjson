@@ -6,6 +6,7 @@ ooo warm :3
 size: 3
 rotate: true
 warmupRate: 10
+hasItems: false
 recipes: [
   {
     input: {
