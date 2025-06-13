@@ -9,8 +9,9 @@ consumes: {
 }
 liquidCapacity: 200
 outputLiquids: [
-  compressed-air/0.25
+  compressed-air/0.5
 ]
+hasItems: false
 ambientSound: compressor
 ambientSoundVolume: 0.2
 category: crafting
