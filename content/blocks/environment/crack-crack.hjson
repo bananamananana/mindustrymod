@@ -1,6 +1,6 @@
-type: Floor
+type: OreBlock
 name: "Crack Crack"
-itemDrop: coal
+itemDrop: crack
 playerUnmineable: true
 oreDefault: true
 oreScale: 22.45
