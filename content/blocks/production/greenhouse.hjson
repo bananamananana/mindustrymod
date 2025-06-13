@@ -1,7 +1,7 @@
 type: multicraft.MultiCrafter
 name: "Greenhouse"
 description: '''
-Grows plants.
+Grows plants. Doesn't require power, just the sun.
 '''
 size: 4
 recipes: [
@@ -10,7 +10,9 @@ recipes: [
       fluids: [
         water/0.25
       ]
-      power: 4
+      items: [
+        mindustrymod-seed-cluster/1
+      ]
     }
     output: {
       items: [
@@ -24,11 +26,61 @@ recipes: [
       fluids: [
         water/0.25
       ]
-      power: 7.5
+      items: [
+        mindustrymod-seed-cluster/1
+      ]
     }
     output: {
       items: [
         mindustrymod-coca/10
+      ]
+    }
+    craftTime: 300
+  }
+  {
+    input: {
+      fluids: [
+        water/0.25
+      ]
+      items: [
+        mindustrymod-seed-cluster/1
+      ]
+    }
+    output: {
+      items: [
+        mindustrymod-chili/10
+      ]
+    }
+    craftTime: 300
+  }
+  {
+    input: {
+      fluids: [
+        water/0.25
+      ]
+      items: [
+        mindustrymod-seed-cluster/1
+      ]
+    }
+    output: {
+      items: [
+        mindustrymod-habanero/10
+      ]
+    }
+    craftTime: 300
+  }
+  {
+    input: {
+      fluids: [
+        water/0.25
+      ]
+      items: [
+        mindustrymod-seed-cluster/1
+      ]
+    }
+    output: {
+      items: [
+        mindustrymod-carolina-reaper/10
       ]
     }
     craftTime: 300
