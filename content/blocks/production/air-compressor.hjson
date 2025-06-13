@@ -9,7 +9,7 @@ consumes: {
 }
 liquidCapacity: 200
 outputLiquids: [
-  compressed-air/0.2
+  compressed-air/0.25
 ]
 ambientSound: compressor
 ambientSoundVolume: 0.07
