@@ -85,6 +85,22 @@ recipes: [
     }
     craftTime: 300
   }
+  {
+    input: {
+      fluids: [
+        water/0.25
+      ]
+      items: [
+        mindustrymod-seed-cluster/1
+      ]
+    }
+    output: {
+      items: [
+        mindustrymod-mint/10
+      ]
+    }
+    craftTime: 300
+  }
 ]
 drawer: [
   {
