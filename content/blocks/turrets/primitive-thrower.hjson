@@ -1,7 +1,7 @@
 type: ItemTurret
 requirements: [
-steel/100
-brick/200
+steel/50
+brick/85
 ]
 name: "Primitive Thrower"
 description: '''
@@ -35,7 +35,7 @@ y: -2.25
 ammoTypes: {
   brick: {
     type: BasicBulletType
-    damage: 750
+    damage: 120
     width: 0
     height: 0
     shrinkY: 0
