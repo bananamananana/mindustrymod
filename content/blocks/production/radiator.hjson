@@ -1,0 +1,49 @@
+type: multicraft.MultiCrafter
+name: "Radiator"
+description: '''
+ooo warm :3
+'''
+size: 3
+rotate: true
+recipes: [
+  {
+    input: {
+      fluids: [
+        slag/0.2
+    }
+    output: {
+      heat: 20
+    }
+  }
+  {
+    input: {
+      fluids: [
+        mindustrymod-hot-sauce/0.2
+    }
+    output: {
+      heat: 40
+    }
+  }
+  {
+    input: {
+      fluids: [
+        mindustrymod-ultra-hot-sauce/0.2
+    }
+    output: {
+      heat: 80
+    }
+  }
+  {
+    input: {
+      fluids: [
+        mindustrymod-hellfire/0.2
+    }
+    output: {
+      heat: 2560
+    }
+  }
+]
+category: crafting
+requirements: [
+  steel/100
+]
