@@ -5,6 +5,7 @@ ooo warm :3
 '''
 size: 3
 rotate: true
+warmupRate: 1
 recipes: [
   {
     input: {
