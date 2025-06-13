@@ -18,6 +18,7 @@ consumes: {
 }
 craftTime: 600
 liquidCapacity: 600
+itemCapacity: 160
 outputLiquids: [
   dbf-steel/1
 ]
