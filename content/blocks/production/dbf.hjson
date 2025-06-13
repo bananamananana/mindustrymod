@@ -12,6 +12,9 @@ consumes: {
     iron/80
     coal/20
   ]
+  liquids: [
+    compressed-air/1
+  ]
 }
 craftTime: 600
 liquidCapacity: 600
