@@ -1,0 +1,12 @@
+type: StackConveyor
+name: "Neutronium Conveyor"
+description: '''
+VROOM!!!
+'''
+speed: 0.5
+itemCapacity: 100
+category: distribution
+requirements: [
+neutronium/1
+silicon/1
+]
