@@ -121,6 +121,27 @@ recipes: [
     }
     craftTime: 150
   }
+  //Steel (specifically from the furnace)
+  {
+    input: {
+      fluids: [
+        mindustrymod-dbf-steel/1
+      ]
+      items: [
+        mindustrymod-crystalline-listerine/4
+      ]
+      power: 1.5
+    }
+    output: {
+      items: [
+        mindustrymod-steel/100
+      ]
+      fluids: [
+        mindustrymod-listerine/0.8
+      ]
+    }
+    craftTime: 600
+  }
 ]
 category: crafting
 requirements: [
