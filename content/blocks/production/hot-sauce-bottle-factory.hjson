@@ -1,0 +1,60 @@
+type: multicraft.MultiCrafter
+name: "Hot Sauce Bottle"
+description: '''
+Makes listerine and variants. Spizee likes it.
+'''
+size: 2
+recipes: [
+  {
+    input: {
+      fluids: [
+        water/0.2
+      ]
+      items: [
+        mindustrymod-chili/1
+      ]
+    }
+    output: {
+      fluids: [
+        slag/0.2
+      ]
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      fluids: [
+        slag/0.2
+      ]
+      items: [
+        mindustrymod-habanero/1
+      ]
+    }
+    output: {
+      fluids: [
+        mindustrymod-hot-sauce/0.2
+      ]
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      fluids: [
+        mindustrymod-hot-sauce/0.2
+      ]
+      items: [
+        mindustrymod-carolina-reaper/1
+      ]
+    }
+    output: {
+      fluids: [
+        mindustrymod-ultra-hot-sauce/0.2
+      ]
+    }
+    craftTime: 60
+  }
+]
+category: crafting
+requirements: [
+  metaglass/100
+]
