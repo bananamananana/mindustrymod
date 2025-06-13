@@ -1,7 +1,9 @@
 type: multicraft.MultiCrafter
 name: "Hot Sauce Bottle"
 description: '''
-Makes listerine and variants. Spizee likes it.
+Makes hot sauce and variants. Spizee likes it.
+
+Sidenote: Can make slag.
 '''
 size: 2
 recipes: [
