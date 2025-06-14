@@ -1,13 +1,13 @@
 type: GenericCrafter
 name: "Crack Processor"
 description: '''
-
+JESSE WE NEED TO
 '''
 size: 2
 consumes: {
   power: 1.5
   items: [
-    coca/2
+    coca/1
   ]
 }
 craftEffect: smeltsmoke
@@ -20,7 +20,7 @@ drawer: [
 ]
 craftTime: 30
 outputItems: [
-   crack/1
+   crack/10
 ]
 category: crafting
 requirements: [
