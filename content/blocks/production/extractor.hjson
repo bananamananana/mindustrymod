@@ -1,0 +1,60 @@
+type: multicraft.MultiCrafter
+name: "Extractor"
+description: '''
+yoink
+'''
+size: 2
+recipes: [
+  {
+    input: {
+      items: [
+        thorium/3
+      ]
+      power: 1
+    }
+    output: {
+      items: [
+        mindustrymod-uranium/1
+        scrap/2
+      ]
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      items: [
+        mindustrymod-uranium/3
+      ]
+      power: 1
+    }
+    output: {
+      items: [
+        mindustrymod-plutonium/1
+        scrap/2
+      ]
+    }
+    craftTime: 60
+  }
+  {
+    input: {
+      items: [
+        sand/4
+      ]
+      fluids: [
+        water/0.2
+      ]
+      power: 0.5
+    }
+    output: {
+      items: [
+        mindustrymod-seed-cluster/1
+      ]
+    }
+    craftTime: 60
+  }
+]
+category: crafting
+requirements: [
+  metaglass/60
+  titanium/40
+]
