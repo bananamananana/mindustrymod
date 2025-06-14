@@ -4,6 +4,7 @@ description: '''
 Redirects heat in 3 directions..
 '''
 size: 1
+splitHeat: true
 drawer: [
   DrawDefault
   {
