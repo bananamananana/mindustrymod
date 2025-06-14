@@ -1,15 +1,18 @@
 type: GenericCrafter
-name: "Superpressurized State Changer"
+name: "TNS Superpressurized State Changer"
 description: '''
 Mechanism
+
+'We made this from a weird type of plastic we found in a fent dealer's closet, neutronium, and some plutonium wiring.' - TNS CEOs.
 '''
 size: 5
 consumes: {
-  power: 40
+  power: 20
   items: [
-    plutonium/4
+    plutonium/1
   ]
 }
+craftTime: 240
 drawer: [
   {
     type: DrawRegion
