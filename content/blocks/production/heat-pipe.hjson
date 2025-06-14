@@ -1,0 +1,16 @@
+type: HeatConductor
+name: "Heat Pipe"
+description: '''
+Redirects heat.
+'''
+size: 1
+drawer: [
+  DrawDefault
+  DrawHeatOutput
+  DrawHeatInput
+]
+category: crafting
+requirements: [
+  copper/2
+  graphite/1
+]
