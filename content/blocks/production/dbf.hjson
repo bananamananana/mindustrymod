@@ -13,7 +13,7 @@ consumes: {
     coal/20
   ]
   liquids: [
-    compressed-air/1
+    compressed-air/0.25
   ]
 }
 craftTime: 600
