@@ -1,0 +1,13 @@
+type: HeatConductor
+name: "TNS Heat Accumulator"
+description: '''
+big heat
+
+'We made this for the sole purpose of overclocking four blast furnaces with hellfire cuz routing heat is janky.' - TNS CEOs.
+'''
+size: 4
+category: crafting
+requirements: [
+  copper/20
+  graphite/20
+]
