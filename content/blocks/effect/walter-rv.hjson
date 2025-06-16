@@ -1,0 +1,16 @@
+type: CoreBlock
+name: "Walter's RV"
+description: '''
+Core of the base.
+'''
+health: 1600
+armor: 30
+itemCapacity: 2000
+size: 4
+category: effect
+unitType: walter
+unitCapModifier: 6
+thrusterLength: 15
+requirements: [
+  iron/1000
+]
