@@ -58,6 +58,7 @@ itemWhitelist: [
   thorium-soda,
   uranium-soda,
   plutonium-soda,
+  seed-cluster
 ]
 mesh: [
 {
@@ -72,3 +73,6 @@ scale: 1
 mag: 0.2
   }
   ]
+research: {
+  parent: copper
+}
