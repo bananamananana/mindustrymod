@@ -1,0 +1,17 @@
+name: "Walter Hartwell White"
+description: '''
+WE NEED TO COOK!
+'''
+isEnemy: false
+mineTier: 1
+buildSpeed: 1
+mineSpeed: 8
+coreUnitDock: true
+faceTarget: true
+speed: 2
+rotateSpeed: 8
+hittable: false
+targetable: false
+mineWalls: true
+mineFloor: true
+canBoost: true
