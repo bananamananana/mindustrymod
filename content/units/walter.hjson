@@ -3,6 +3,8 @@ description: '''
 WE NEED TO COOK!
 '''
 isEnemy: false
+outlineColor: 00000000
+drawCell: false
 mineTier: 1
 buildSpeed: 1
 mineSpeed: 8
