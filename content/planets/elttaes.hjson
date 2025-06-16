@@ -1,0 +1,168 @@
+name: "Elttaes"
+//not gonna be used at all
+generator: {
+  berylChance: 0.45
+  iceChance: 0.15
+  ferricChance: 0.55
+  stoneChance: 0.001
+  radMin: 25
+  radMax: 25
+  berylliumScale: 4
+  copperScale: 0.6
+  scale: 25
+  mag: 0.5
+  thresh: 0.9
+  fscl: 30
+  fper: 0.4
+}
+//sector count - larger numbers mean exponentially more sectors, may crash above 4
+sectorSize: 2.5
+//terrain generation seed the planet uses for its sectors
+sectorSeed: -69
+//sector to start on - probably make this a preset sector
+startSector: 2
+//parent to orbit around and follow
+parent: sun
+//icon colour
+iconColor: 63ad7a
+//radius from the planet's "surface" that the atmosphere blur begins
+atmosphereRadIn: 0
+//radius where it fades away - this can have visual issues if above 0.25
+atmosphereRadOut: 0.35
+//colour of the atmosphere
+atmosphereColor: 3898a1
+//orbit radius, measured in units i do not know
+orbitRadius: 38
+//angle of the starting position of the orbit, so that all planets are not in the same line 
+orbitOffset: 140
+//time taken to complete one full orbit, in seconds
+orbitTime: 12000
+//time in ticks that it takes for one day to pass on the planet
+rotateTime: 5000
+//add tidalLock: true and updateLighting: false to make a planet's daylight not move
+//whether this planet can be selected, ever
+accessible: true
+//whether to allow launching to numbered sectors - set to false for erekir sector behaviour
+allowLaunchToNumbered: false
+//planet environmental factors
+defaultEnv: 193
+//content unlocked when landing on this planet
+unlockedOnLand: [
+  
+]
+//planet icon 
+icon: terrain
+//various rules
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowWaveSimulation: false
+allowSectorInvasion: false
+clearSectorOnLose: true
+prebuildBase: true
+allowWaves: false
+allowLaunchToNumbered: false
+enemyBuildSpeedMultiplier: 1
+//default core to launch with
+defaultCore: 0bc0-nexus
+//visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
+//use objects {} to make a single mesh, and the below format to create multiple
+mesh: [
+  {
+    //a two colour mesh type
+    type: NoiseMesh
+    //number of hexagons - like sectors, this is exponential, so beware of frying your GPU (although your GPU can handle way more hexagons here)
+    divisions: 6
+    //seed - different seeds mean the details of the mesh generate differently
+    seed: -5
+    //mesh size - 1 is serpulo
+    radius: 0.998
+    //first colour to use 
+    color1: 3e3852
+    //second
+    color2: 4f4474
+    //mesh shape values - just mess around with these until they stop exploding, i still do not know how they work
+    octaves: 4.2
+    persistence: 0.9
+    scale: 0.7
+    mag: 0.4
+    //these control how the two colours behave on the mesh
+    coct: 1
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    seed: -5
+    radius: 0.945
+    color1: 545965
+    color2: 757a85
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 0.9
+    coct: 4
+    cper: 1
+    cscl: 1.8
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    seed: -5
+    radius: 0.884
+    color1: 342832
+    color2: 473944
+    octaves: 4.6
+    persistence: 0.9
+    scale: 0.7
+    mag: 1.5
+    coct: 4
+    cper: 1
+    cscl: 4
+    cthresh: 1
+  }
+]
+//mesh to use for drawing the clouds, essentially just a second mesh
+cloudMesh: [
+  {
+    type: HexSkyMesh
+    //rotate speed 
+    speed: 3
+    seed: 7
+    divisions: 6
+    //this radius value is based on the planet "surface", not the "core" of the planet, unlike noise meshes
+    radius: 0.1
+    //cloud colour
+    color: 363636
+    //more explodey values, they're even more sensitive here
+    octaves: 3
+    persistence: 0.3
+    scl: 1
+    thresh: 0.43
+  }
+  {
+    type: HexSkyMesh
+    seed: 5
+    speed: 2
+    divisions: 6
+    radius: 0.11
+    color: 363636
+    octaves: 2
+    persistence: 0.6
+    scl: 0.9
+    thresh: 0.4
+  }
+  {
+    type: HexSkyMesh
+    speed: -2
+    divisions: 5
+    radius: 0.0372
+    color: 363636
+    octaves: 0.4
+    persistence: 0.2
+    scl: 0.2
+    thresh: 0.4
+  }
+]
