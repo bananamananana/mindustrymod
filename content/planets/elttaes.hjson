@@ -1,3 +1,4 @@
+type: Planet
 name: "Elttaes"
 //not gonna be used at all
 generator: {
