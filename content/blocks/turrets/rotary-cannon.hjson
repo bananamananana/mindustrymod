@@ -11,6 +11,8 @@ smokeEffect: none
 reload: 6
 shake: 1
 size: 3
+ammoUseEffect: casing2
+ammoEjectBack: 3
 inaccuracy: 1
 shootCone: 5
 predictTarget: false
