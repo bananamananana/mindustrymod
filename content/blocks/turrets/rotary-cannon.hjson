@@ -1,5 +1,8 @@
 type: ItemTurret
 requirements: [
+  copper/100
+  metaglass/30
+  steel/50
 ]
 name: "Rotary Cannon"
 description: '''
