@@ -19,18 +19,20 @@ ammoTypes: {
     type: PointBulletType
     ammoMultiplier: 4
     damage: 5
-    trailEffect: {
+    shootEffect: {
       line: true
-      lifetime: 12
-      length: 0
-      lenFrom: 10
-      lenTo: 10
-      strokeFrom: 1.5
+      lifetime: 14
+      length: 30
+      lenFrom: 9
+      lenTo: 0
+      strokeFrom: 4
       strokeTo: 0
-      cone: 0
+      cone: 25
       colorFrom: ffffff
       colorTo: 65ffae
     }
+    trailEffect: disperseTrail
+    trailRotation: true
     trailInterval: 10
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
