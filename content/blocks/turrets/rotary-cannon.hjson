@@ -128,7 +128,7 @@ ammoTypes: {
   thorium: {
     type: PointBulletType
     ammoMultiplier: 2
-    damage: 7
+    damage: 12
     rangeChange: 40
     shootEffect: {
       line: true
