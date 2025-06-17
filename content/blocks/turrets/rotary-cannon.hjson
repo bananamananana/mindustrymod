@@ -42,6 +42,7 @@ ammoTypes: {
       cone: 0
       colorFrom: ffffff
       colorTo: 65ffae
+      rotWithParent: true
     }
     trailRotation: true
     trailInterval: 10
