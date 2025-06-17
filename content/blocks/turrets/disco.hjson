@@ -2,7 +2,7 @@ type: ItemTurret
 requirements: [
 catnip/550
 ]
-name: "Disco"
+name: "Fool"
 description: '''
 Fires compacted catnip incendiary rounds at high speed. Highly inaccurate.
 '''
