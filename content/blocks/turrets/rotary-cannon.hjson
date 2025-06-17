@@ -51,5 +51,116 @@ ammoTypes: {
     hitColor: 65ffae
     lifetime: 140
   }
+  iron: {
+    type: PointBulletType
+    ammoMultiplier: 2
+    damage: 7
+    rangeChange: 24
+    shootEffect: {
+      line: true
+      lifetime: 14
+      length: 30
+      lenFrom: 9
+      lenTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      cone: 25
+      colorFrom: ffffff
+      colorTo: db5541
+    }
+    trailEffect: {
+      particles: 1
+      line: true
+      lifetime: 12
+      length: 0.001
+      lenFrom: 5
+      lenTo: 5
+      strokeFrom: 1.5
+      strokeTo: 0
+      cone: 0
+      colorFrom: ffffff
+      colorTo: db5541
+    }
+    trailRotation: true
+    trailInterval: 4
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    hitColor: db5541
+    lifetime: 164
+  }
+  silicon: {
+    type: PointBulletType
+    ammoMultiplier: 3
+    damage: 3
+    reloadMultiplier: 0.75
+    shootEffect: {
+      line: true
+      lifetime: 14
+      length: 30
+      lenFrom: 9
+      lenTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      cone: 25
+      colorFrom: ffffff
+      colorTo: 747474
+    }
+    trailEffect: {
+      particles: 1
+      line: true
+      lifetime: 12
+      length: 0.001
+      lenFrom: 5
+      lenTo: 5
+      strokeFrom: 1.5
+      strokeTo: 0
+      cone: 0
+      colorFrom: ffffff
+      colorTo: 747474
+    }
+    trailRotation: true
+    trailInterval: 4
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    hitColor: 747474
+    lifetime: 140
+  }
+  thorium: {
+    type: PointBulletType
+    ammoMultiplier: 2
+    damage: 7
+    rangeChange: 40
+    shootEffect: {
+      line: true
+      lifetime: 14
+      length: 30
+      lenFrom: 9
+      lenTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      cone: 25
+      colorFrom: ffffff
+      colorTo: ff4072
+    }
+    trailEffect: {
+      particles: 1
+      line: true
+      lifetime: 12
+      length: 0.001
+      lenFrom: 5
+      lenTo: 5
+      strokeFrom: 1.5
+      strokeTo: 0
+      cone: 0
+      colorFrom: ffffff
+      colorTo: ff4072
+    }
+    trailRotation: true
+    trailInterval: 4
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    hitColor: ff4072
+    lifetime: 180
+  }
 }
 liquidCapacity: 200
