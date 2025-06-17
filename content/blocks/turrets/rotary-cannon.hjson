@@ -7,7 +7,7 @@ A powerful, close-range turret that fires ionized metal rounds at high speed. Bu
 '''
 category: turret
 range: 140
-smokeEffect: shootBigSmoke2
+smokeEffect: none
 reload: 6
 shake: 1
 size: 3
@@ -21,7 +21,7 @@ ammoTypes: {
     damage: 5
     shootEffect: {
       line: true
-      lifetime: 20
+      lifetime: 14
       length: 30
       lenFrom: 9
       lenTo: 0
