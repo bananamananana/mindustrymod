@@ -3,7 +3,7 @@ requirements: [
 ]
 name: "Rotary Cannon"
 description: '''
-A powerful, close-range turret that fires ionized metal rounds at high speed. Bullets are only able to hit one target. Prioritizes weakest enemies.
+A powerful, close-range turret that fires ionized metal rounds at high speed. Bullets are only able to hit one target.
 '''
 category: turret
 range: 140
@@ -13,7 +13,6 @@ shake: 1
 size: 3
 inaccuracy: 1
 shootCone: 15
-unitSort: weakest
 shootSound: rotary
 ammoTypes: {
   copper: {
