@@ -1,0 +1,10 @@
+name: "Saint's Tears"
+description: '''
+  
+'''
+color: 00ffff
+heatCapacity: 0.5
+temperature: 0.75
+effect: hellfire-status
+lightColor: 00ffff
+boilPoint: 10
