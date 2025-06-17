@@ -36,8 +36,8 @@ ammoTypes: {
       line: true
       lifetime: 12
       length: 0.001
-      lenFrom: 5
-      lenTo: 5
+      lenFrom: 10
+      lenTo: 10
       strokeFrom: 1.5
       strokeTo: 0
       cone: 0
@@ -45,7 +45,7 @@ ammoTypes: {
       colorTo: 65ffae
     }
     trailRotation: true
-    trailInterval: 2.5
+    trailInterval: 8
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     hitColor: 65ffae
@@ -73,8 +73,8 @@ ammoTypes: {
       line: true
       lifetime: 12
       length: 0.001
-      lenFrom: 5
-      lenTo: 5
+      lenFrom: 10
+      lenTo: 10
       strokeFrom: 1.5
       strokeTo: 0
       cone: 0
@@ -82,7 +82,7 @@ ammoTypes: {
       colorTo: db5541
     }
     trailRotation: true
-    trailInterval: 2.5
+    trailInterval: 8
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     hitColor: db5541
@@ -110,8 +110,8 @@ ammoTypes: {
       line: true
       lifetime: 12
       length: 0.001
-      lenFrom: 5
-      lenTo: 5
+      lenFrom: 10
+      lenTo: 10
       strokeFrom: 1.5
       strokeTo: 0
       cone: 0
@@ -119,7 +119,7 @@ ammoTypes: {
       colorTo: 747474
     }
     trailRotation: true
-    trailInterval: 2.5
+    trailInterval: 8
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     hitColor: 747474
@@ -147,8 +147,8 @@ ammoTypes: {
       line: true
       lifetime: 12
       length: 0.001
-      lenFrom: 5
-      lenTo: 5
+      lenFrom: 10
+      lenTo: 10
       strokeFrom: 1.5
       strokeTo: 0
       cone: 0
@@ -156,7 +156,7 @@ ammoTypes: {
       colorTo: ff4072
     }
     trailRotation: true
-    trailInterval: 2.5
+    trailInterval: 8
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     hitColor: ff4072
