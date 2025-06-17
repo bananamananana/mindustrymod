@@ -2,7 +2,7 @@ type: ItemTurret
 requirements: [
 catnip/800
 ]
-name: "Ella"
+name: "The"
 description: '''
 Smokes things, makes enemies high.
 
