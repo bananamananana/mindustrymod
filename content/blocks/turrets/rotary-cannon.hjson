@@ -12,9 +12,10 @@ reload: 6
 shake: 1
 size: 3
 inaccuracy: 1
-shootCone: 15
+shootCone: 5
 shootSound: rotary
-unitSort: closest
+unitSort: weakest
+targetInterval: 3
 ammoTypes: {
   copper: {
     type: PointBulletType
