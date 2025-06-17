@@ -30,6 +30,8 @@ parent: sun
 solarSystem: sun
 itemWhitelist: [
   trash,
+  copper,
+  phase-fabric,
   rebar,
   iron, 
   steel,
