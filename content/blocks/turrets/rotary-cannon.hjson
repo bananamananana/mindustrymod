@@ -35,7 +35,7 @@ ammoTypes: {
       particles: 1
       line: true
       lifetime: 12
-      length: 0
+      length: 0.001
       lenFrom: 10
       lenTo: 10
       strokeFrom: 1.5
@@ -43,7 +43,6 @@ ammoTypes: {
       cone: 0
       colorFrom: ffffff
       colorTo: 65ffae
-      rotWithParent: true
     }
     trailRotation: true
     trailInterval: 10
