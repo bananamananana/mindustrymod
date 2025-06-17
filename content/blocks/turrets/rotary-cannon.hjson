@@ -8,27 +8,28 @@ A powerful, close-range turret that fires ionized metal rounds at high speed. Bu
 category: turret
 range: 112
 smokeEffect: shootBigSmoke2
-reload: 8
+reload: 6
 shake: 1
 size: 3
-inaccuracy: 15
-velocityRnd: 0.25
+inaccuracy: 1
 shootCone: 15
 ammoTypes: {
   copper: {
     type: PointBulletType
-    damage: 4
+    ammoMultiplier: 4
+    damage: 5
     shootEffect: {
       type: WrapEffect
       color: 65ffae
       effect: [shootBigColor, colorSparkBig]
+      rotWithParent: true
     }
     trailEffect: {
       line: true
       lifetime: 12
       length: 0.5
-      lenFrom: 7
-      lenTo: 0
+      lenFrom: 10
+      lenTo: 7
       strokeFrom: 1.5
       strokeTo: 0
       cone: 0
@@ -37,8 +38,8 @@ ammoTypes: {
     }
     trailInterval: 7
     hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
     hitColor: 65ffae
-    despawnHit: true
     lifetime: 112
   }
 }
