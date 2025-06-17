@@ -13,9 +13,9 @@ shake: 1
 size: 3
 inaccuracy: 1
 shootCone: 5
+targetPrediction: false
 shootSound: rotary
 unitSort: weakest
-targetInterval: 3
 ammoTypes: {
   copper: {
     type: PointBulletType
