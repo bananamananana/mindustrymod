@@ -8,20 +8,6 @@ recipes: [
   //Crack
   {
     input: {
-      fluids: [
-        mindustrymod-liquid-crack/0.2
-      ]
-      power: 1.5
-    }
-    output: {
-      items: [
-        mindustrymod-crack/1
-      ]
-    }
-    craftTime: 150
-  }
-  {
-    input: {
       items: [
         mindustrymod-crack/1
       ]
@@ -30,93 +16,6 @@ recipes: [
     output: {
       fluids: [
         mindustrymod-liquid-crack/0.2
-      ]
-    }
-    craftTime: 150
-  }
-  //Listerine
-  {
-    input: {
-      fluids: [
-        mindustrymod-listerine/0.2
-      ]
-      power: 1.5
-    }
-    output: {
-      items: [
-        mindustrymod-crystalline-listerine/1
-      ]
-    }
-    craftTime: 150
-  }
-  {
-    input: {
-      items: [
-        mindustrymod-crystalline-listerine/1
-      ]
-      power: 1.5
-    }
-    output: {
-      fluids: [
-        mindustrymod-listerine/0.2
-      ]
-    }
-    craftTime: 150
-  }
-  //Ultra Listerine
-  {
-    input: {
-      fluids: [
-        mindustrymod-ultra-listerine/0.2
-      ]
-      power: 1.5
-    }
-    output: {
-      items: [
-        mindustrymod-crystalline-ultra-listerine/1
-      ]
-    }
-    craftTime: 150
-  }
-  {
-    input: {
-      items: [
-        mindustrymod-crystalline-ultra-listerine/1
-      ]
-      power: 1.5
-    }
-    output: {
-      fluids: [
-        mindustrymod-ultra-listerine/0.2
-      ]
-    }
-    craftTime: 150
-  }
-  //Hellfire
-  {
-    input: {
-      fluids: [
-        mindustrymod-hellfire/0.2
-      ]
-      power: 1.5
-    }
-    output: {
-      items: [
-        mindustrymod-crystalline-hellfire/1
-      ]
-    }
-    craftTime: 150
-  }
-  {
-    input: {
-      items: [
-        mindustrymod-crystalline-hellfire/1
-      ]
-      power: 1.5
-    }
-    output: {
-      fluids: [
-        mindustrymod-ultra-hellfire/0.2
       ]
     }
     craftTime: 150
@@ -134,7 +33,7 @@ recipes: [
         mindustrymod-steel/100
       ]
     }
-    craftTime: 600
+    craftTime: 300
   }
 ]
 category: crafting
