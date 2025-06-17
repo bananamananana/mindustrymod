@@ -23,11 +23,11 @@ ammoTypes: {
       line: true
       lifetime: 20
       length: 30
-      lenFrom: 7
+      lenFrom: 9
       lenTo: 0
-      strokeFrom: 2
+      strokeFrom: 4
       strokeTo: 0
-      cone: 20
+      cone: 25
       colorFrom: ffffff
       colorTo: 65ffae
     }
@@ -43,6 +43,7 @@ ammoTypes: {
       colorFrom: ffffff
       colorTo: 65ffae
     }
+    trailRotation: true
     trailInterval: 10
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
