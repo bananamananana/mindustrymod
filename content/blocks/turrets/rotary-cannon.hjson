@@ -24,7 +24,6 @@ shootSound: rotary
 unitSort: weakest
 drawer: {
 type: DrawTurret
-basePrefix: brick-
 parts: [
 // THANK YOU TWCASH FOR THIS CODE
 {
