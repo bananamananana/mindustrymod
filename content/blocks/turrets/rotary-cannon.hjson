@@ -26,9 +26,58 @@ drawer: {
 type: DrawTurret
 parts: [
 // THANK YOU TWCASH FOR THIS CODE
+
+//mid barrel (under)
 {
 suffix: -barrel
-moveX: 3
+moveX: -2.5
+progress: {
+type: recoil
+op: curve
+start: 0
+end: 1
+interp: sineIn
+}
+under: true
+color: 646469
+colorTo: 4d4e58
+}
+//right barrel
+{
+suffix: -barrel
+x: 2.5
+moveX: -2.5
+progress: {
+type: recoil
+op: curve
+start: 0
+end: 1
+interp: sineIn
+}
+under: true
+color: 7b7b7b
+colorTo: 646469
+}
+//mid barrel
+{
+suffix: -barrel
+moveX: 2.5
+progress: {
+type: recoil
+op: curve
+start: 0
+end: 1
+interp: sineIn
+}
+under: true
+color: 646469
+colorTo: 7b7b7b
+}
+//left barrel
+{
+suffix: -barrel
+x: -2.5
+moveX: 2.5
 progress: {
 type: recoil
 op: curve
@@ -38,56 +87,13 @@ interp: sineIn
 }
 under: true
 color: 4d4e58
-colorTo: 7b7b7b
-}
-{
-suffix: -barrel
-moveX: 3
-x: -3
-progress: {
-type: recoil
-op: curve
-start: 0
-end: 1
-interp: sineIn
-}
-under: true
-color: 7b7b7b
-colorTo: 4d4e58
-}
-{
-//middle to right
-suffix: -barrel
-moveX: -3
-x: 3
-progress: {
-type: recoil
-op: curve
-start: 0
-end: 1
-interp: sineIn
-}
-under: true
-color: 7b7b7b
-colorTo: 7b7b7b00
-}
-{
-//left to middle
-suffix: -barrel
-moveX: -3
-progress: {
-type: recoil
-op: curve
-start: 0
-end: 1
-interp: sineIn
-}
-color: 7b7b7b00
-colorTo: 7b7b7b
-under: true
+colorTo: 646469
 }
 ]
 }
+// barrel left: 4d4e58
+// barrel mid: 646469
+// barrel right: 7b7b7b
 ammoTypes: {
   copper: {
     type: PointBulletType
