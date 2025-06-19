@@ -75,7 +75,6 @@ colorTo: 7b7b7b00
 //left to middle
 suffix: -barrel
 moveX: -3
-moveY: -2
 progress: {
 type: recoil
 op: curve
