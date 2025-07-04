@@ -1,0 +1,54 @@
+type: ItemTurret
+requirements: [
+]
+name: "Interlude"
+description: '''
+Launches a delayed explosive shell over long distances.
+'''
+category: turret
+range: 140
+rotateSpeed: 1.5
+smokeEffect: none
+reload: 120
+recoilTime: 80
+shake: 5
+size: 5
+shootCone: 2
+targetAir: false
+predictTarget: false
+shootSound: pipe
+ammoTypes: {
+  carolina-reaper: {
+    type: PointBulletType
+    ammoMultiplier: 1
+    damage: 0
+    shootEffect: {
+      line: true
+      lifetime: 14
+      length: 30
+      lenFrom: 9
+      lenTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      cone: 25
+      colorFrom: ffffff
+      colorTo: ff0000
+    }
+    fragBullets: 1
+    fragBullet: {
+      lifetime: 120
+      damage: 0
+      collides: false
+      fragBullets: 1
+      fragBullet: {
+        lifetime: 0
+        collidesAir: false
+        splashDamage: 900
+        splashDamageRadius: 16
+        hitEffect: blastExplosion
+      }
+    }
+}
+ammoPerShot: 10
+maxAmmo: 40
+liquidCapacity: 200
