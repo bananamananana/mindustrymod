@@ -3,10 +3,10 @@ requirements: [
 ]
 name: "Interlude"
 description: '''
-Launches a delayed explosive shell over long distances.
+Launches a high explosive shell over long distances.
 '''
 category: turret
-range: 140
+range: 350
 rotateSpeed: 1.5
 smokeEffect: none
 reload: 120
@@ -21,7 +21,9 @@ ammoTypes: {
   carolina-reaper: {
     type: PointBulletType
     ammoMultiplier: 1
-    damage: 0
+    splashDamage: 900
+    splashDamageRadius: 16
+    hitEffect: blastExplosion
     shootEffect: {
       line: true
       lifetime: 14
@@ -34,20 +36,23 @@ ammoTypes: {
       colorFrom: ffffff
       colorTo: ff0000
     }
-    fragBullets: 1
-    fragBullet: {
-      lifetime: 120
-      damage: 0
-      collides: false
-      fragBullets: 1
-      fragBullet: {
-        lifetime: 0
-        collidesAir: false
-        splashDamage: 900
-        splashDamageRadius: 16
-        hitEffect: blastExplosion
-      }
+    trailEffect: {
+      particles: 1
+      line: true
+      lifetime: 12
+      length: 0.001
+      lenFrom: 10
+      lenTo: 10
+      strokeFrom: 1.5
+      strokeTo: 0
+      cone: 0
+      colorFrom: ffffff
+      colorTo: ff0000
     }
+    trailRotation: true
+    trailInterval: 8
+    lifetime: 350
+  }
 }
 ammoPerShot: 10
 maxAmmo: 40
