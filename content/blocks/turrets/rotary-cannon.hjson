@@ -12,7 +12,7 @@ category: turret
 range: 140
 smokeEffect: none
 reload: 6
-recoilTime: 24
+recoilTime: 6
 shake: 1
 size: 3
 ammoUseEffect: casing2
