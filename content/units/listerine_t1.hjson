@@ -27,7 +27,7 @@ trailColor: 54ffe5
 parts: [
   { 
     type: RegionPart
-    suffix: 
+    name: listerine_t1
     layer: 115
   }
   { 
