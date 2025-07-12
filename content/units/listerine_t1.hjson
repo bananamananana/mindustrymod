@@ -1,8 +1,6 @@
-name: "Pisssturm"
+name: "Snowstorm"
 description: '''
 piss listerine on your foes
-
-
 '''
 type: flying
 hitSize: 12
@@ -20,14 +18,14 @@ maxRange: 160
 lightRadius: 0
 drawCell: false
 lowAltitude: true
-engineSize: 8
+engineSize: 3.5
+engineOffset: 8
 engineColor: 54ffe5
-outlines: false
 parts: [
   { 
     type: RegionPart
-    name: _wings
-    layer: 91
+    suffix: _wings
+    under: true
     color: 54ffe5
   }
   { 
