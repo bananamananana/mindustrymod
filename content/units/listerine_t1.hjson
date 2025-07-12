@@ -22,8 +22,14 @@ engineSize: 3.5
 engineOffset: 12
 engineColor: 54ffe5
 trailLength: 30
+trailColor: 54ffe5
 //115 is layer for flying units
 parts: [
+  { 
+    type: RegionPart
+    suffix: 
+    layer: 115
+  }
   { 
     type: RegionPart
     suffix: _wings
