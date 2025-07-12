@@ -17,7 +17,6 @@ range: 145
 maxRange: 160
 lightRadius: 0
 drawCell: false
-lowAltitude: true
 engineSize: 3.5
 engineOffset: 12
 engineColor: 54ffe5
@@ -25,11 +24,6 @@ trailLength: 30
 trailColor: 54ffe5
 //115 is layer for flying units
 parts: [
-  { 
-    type: RegionPart
-    name: listerine_t1
-    layer: 115
-  }
   { 
     type: RegionPart
     suffix: _wings
@@ -41,7 +35,7 @@ parts: [
     suffix: _wings_glow
     outline: false
     layer: 116
-    color: 54ffe550
+    color: 54ffe5
     blending: additive
   }
 ]
