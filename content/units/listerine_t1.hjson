@@ -7,10 +7,10 @@ hitSize: 12
 flying: true
 health: 1300
 armor: 2
-speed: 3
-rotateSpeed: 4
-accel: 0.1
-drag: 0.013
+speed: 2.2
+rotateSpeed: 3
+accel: 0.05
+drag: 0.03
 strafePenalty: 0.5
 shadowElevationScl: 0.45
 range: 145
@@ -21,6 +21,7 @@ lowAltitude: true
 engineSize: 3.5
 engineOffset: 12
 engineColor: 54ffe5
+trailLength: 30
 //115 is layer for flying units
 parts: [
   { 
