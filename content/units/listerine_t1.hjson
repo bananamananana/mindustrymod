@@ -19,20 +19,21 @@ lightRadius: 0
 drawCell: false
 lowAltitude: true
 engineSize: 3.5
-engineOffset: 8
+engineOffset: 12
 engineColor: 54ffe5
+//115 is layer for flying units
 parts: [
   { 
     type: RegionPart
     suffix: _wings
-    under: true
+    layer: 114
     color: 54ffe5
   }
   { 
     type: RegionPart
     suffix: _wings_glow
     outline: false
-    layer: 140
+    layer: 116
     color: 54ffe550
     blending: additive
   }
