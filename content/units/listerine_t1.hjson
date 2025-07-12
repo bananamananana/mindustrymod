@@ -9,7 +9,7 @@ hitSize: 12
 flying: true
 health: 1300
 armor: 2
-speed: 6
+speed: 3
 rotateSpeed: 4
 accel: 0.1
 drag: 0.013
@@ -20,19 +20,19 @@ maxRange: 160
 lightRadius: 0
 drawCell: false
 lowAltitude: true
-engineSize: 4
+engineSize: 8
 engineColor: 54ffe5
 outlines: false
 parts: [
   { 
     type: RegionPart
-    suffix: -wings
+    name: _wings
     layer: 91
     color: 54ffe5
   }
   { 
     type: RegionPart
-    suffix: -wings-glow
+    suffix: _wings_glow
     outline: false
     layer: 140
     color: 54ffe550
