@@ -11,9 +11,7 @@ range: 200
 recoil: 0
 shake: 0
 size: 5
-inaccuracy: 360
-velocityRnd: 0.7
-shootCone: 360
+shootCone: 20
 rotateSpeed: 1
 shootEffect: none
 smokeEffect: none
@@ -24,6 +22,7 @@ drawer: {
     {
       type: RegionPart
       outline: false
+      colorFrom: 00000000
       color: ffff00
       blending: additive
       progress: warmup
