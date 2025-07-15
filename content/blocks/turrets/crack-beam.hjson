@@ -1,0 +1,45 @@
+type: ContinuousTurret
+requirements: [
+  
+]
+name: "THE CRACK BEAM"
+description: '''
+superman loves this
+'''
+category: turret
+range: 200
+recoil: 0
+shake: 0
+size: 5
+inaccuracy: 360
+velocityRnd: 0.7
+shootCone: 360
+rotateSpeed: 1
+shootEffect: none
+smokeEffect: none
+targetHealing: true
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      outline: false
+      color: ffff00
+      blending: additive
+      progress: warmup
+      suffix: -glow
+    }
+  ]
+}
+shootType: {
+  type: ContinuousLaserBulletType
+  collidesTeam: true
+  healPercent: 5
+  damage: 20
+  colors: [ffffff, ffff00]
+  length: 200
+  width: 12
+}
+consumes: {
+power: 30
+}
