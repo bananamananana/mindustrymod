@@ -20,10 +20,9 @@ drawer: {
   type: DrawTurret
   parts: [
     {
-      type: RegionPart
       outline: false
-      colorFrom: 00000000
-      color: ffff00
+      color: 00000000
+      colorTo: ffff00
       blending: additive
       progress: warmup
       suffix: -glow
