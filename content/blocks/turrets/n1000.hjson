@@ -10,6 +10,8 @@ category: turret
 range: 240
 smokeEffect: none
 shootSound: explosionbig
+heatRequirement: 40
+maxHeatEfficiency: 1
 chargeSound: nether
 reload: 240
 shoot: {
@@ -25,7 +27,7 @@ parts: [
 suffix: "-channels"
 progress: charge
 color: e2865400
-colorTo: ffffa3
+colorTo: ffffa350
 outline: false
 }
 ]
@@ -70,24 +72,24 @@ ammoTypes: {
     ]
     shootEffect: [
       {
-        length: 90
+        length: 120
         cone: 10
-        lifetime: 40
+        lifetime: 85
         particles: 15
         colorFrom: ffffa3
-        colorTo: e28654
+        colorTo: e2865400
         sizeFrom: 10
-        sizeTo: 2
+        sizeTo: 5
       }
       {
-        length: 100
+        length: 140
         cone: 15
-        lifetime: 30
+        lifetime: 60
         particles: 12
         colorFrom: ffffa3
-        colorTo: e28654
+        colorTo: e2865400
         sizeFrom: 7
-        sizeTo: 2
+        sizeTo: 4
       }
     ]
     hitEffect: [
