@@ -1,0 +1,77 @@
+type: ItemTurret
+requirements: [
+crack/300
+]
+name: "DamnCo N-1000"
+description: '''
+
+'''
+hasShadow: false
+category: turret
+range: 240
+shootEffect: none
+smokeEffect: none
+shootSound: explosionbig
+chargeSound: nether
+reload: 120
+shoot: {
+  firstShotDelay: 120
+}
+recoil: 2
+shake: 4
+size: 6
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-channels"
+progress: warmup
+color: e2865400
+colorTo: ffffa3
+outline: false
+}
+{
+suffix: "-glow"
+progress: charge
+color: e2865400
+colorTo: ffffa3
+outline: false
+under: true
+}
+]
+}
+ammoTypes: {
+  carolina-reaper: {
+    type: LaserBulletType
+    ammoMultiplier: 1
+    damage: 200
+    width: 100
+    sideAngle: 45
+    sideLength: 30
+    sideWidth: 15
+    lifetime: 30
+    length: 240
+    pierce: true
+    colors: [
+      e28654,
+      ffcd66,
+      ffffa3,
+      ffffff
+    ]
+    hitEffect: [
+      {
+        line: true
+        length: 60
+        lifetime: 15
+        particles: 10
+        colorFrom: e28654
+        colorTo: ffffa3
+        lenFrom: 2
+        sizeTo: 0
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    ]
+  }
+}
+ammoPerShot: 10
