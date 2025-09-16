@@ -4,7 +4,7 @@ crack/300
 ]
 name: "DamnCo N-1000"
 description: '''
-
+Charges up and releases a beam of superheated capscaicin at enemy targets.
 '''
 hasShadow: false
 category: turret
@@ -13,13 +13,13 @@ shootEffect: none
 smokeEffect: none
 shootSound: explosionbig
 chargeSound: nether
-reload: 120
+reload: 240
 shoot: {
-  firstShotDelay: 120
+  firstShotDelay: 90
 }
-recoil: 2
-shake: 4
-size: 6
+recoil: 4
+shake: 10
+size: 4
 drawer: {
 type: DrawTurret
 parts: [
@@ -45,11 +45,10 @@ ammoTypes: {
     type: LaserBulletType
     ammoMultiplier: 1
     damage: 200
-    width: 100
-    sideAngle: 45
-    sideLength: 30
-    sideWidth: 15
-    lifetime: 30
+    width: 40
+    sideLength: 0
+    sideWidth: 0
+    lifetime: 15
     length: 240
     pierce: true
     colors: [
@@ -58,16 +57,40 @@ ammoTypes: {
       ffffa3,
       ffffff
     ]
+    chargeEffect: [
+      {
+        line: true
+        baseLength: -90
+        length: 90
+        lifetime: 90
+        particles: 15
+        colorFrom: e28654
+        colorTo: ffffa3
+        lenFrom: 5
+        lenTo: 0
+        strokeFrom: 2
+        strokeTo: 0
+      }
+      {
+        length: 0
+        lifetime: 90
+        particles: 1
+        colorFrom: e28654
+        colorTo: ffffa3
+        sizeTo: 2
+        sizeTo: 10
+      }
+    ]
     hitEffect: [
       {
         line: true
         length: 60
         lifetime: 15
         particles: 10
-        colorFrom: e28654
-        colorTo: ffffa3
+        colorFrom: ffcd66
+        colorTo: e28654
         lenFrom: 2
-        sizeTo: 0
+        lenTo: 0
         strokeFrom: 1
         strokeTo: 0
       }
