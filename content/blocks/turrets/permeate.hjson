@@ -38,7 +38,7 @@ ammoTypes: {
   thorium: {
     type: LaserBulletType
     ammoMultiplier: 1
-    damage: 200
+    damage: 1000
     width: 100
     sideLength: 90
     sideWidth: 20
