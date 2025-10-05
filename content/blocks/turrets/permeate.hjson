@@ -39,9 +39,9 @@ ammoTypes: {
     type: LaserBulletType
     ammoMultiplier: 1
     damage: 200
-    width: 50
+    width: 100
     sideLength: 90
-    sideWidth: 60
+    sideWidth: 20
     lifetime: 45
     length: 600
     pierce: true
@@ -60,7 +60,7 @@ ammoTypes: {
         colorFrom: cc4159
         colorTo: f9a3c7
         sizeFrom: 0
-        sizeTo: 25
+        sizeTo: 10
       }
       {
         length: 0
@@ -68,8 +68,8 @@ ammoTypes: {
         particles: 1
         colorFrom: cc4159
         colorTo: ffffff
-        sizeTo: 2
-        sizeTo: 50
+        sizeFrom: 2
+        sizeTo: 10
       }
     ]
     shootEffect: none
