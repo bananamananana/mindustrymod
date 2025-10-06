@@ -68,8 +68,18 @@ ammoTypes: {
     height: 40
     shrinkX: 0
     shrinkY: 0
-    trailWidth: 5
-    trailLength: 100
+    trailWidth: 7
+    trailEffect: {
+      length: 40
+      cone: -25
+      sizeFrom: 7
+      sizeTo: 0
+      lifetime: 10
+      particles: 5
+      colorFrom: 71ff2d
+      colorTo: 71ff2d
+    }
+    trailLength: 60
     trailColor: 71ff2d
     backColor: 71ff2d
     frontColor: d0ff80
