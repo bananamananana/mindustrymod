@@ -61,7 +61,41 @@ ammoTypes: {
   uranium: {
     type: ArtilleryBulletType
     ammoMultiplier: 1
-    damage: 80
+    damage: 0
+    splashDamage: 2000
+    splashDamageRadius: 150
+    hitEffect: [
+      {
+        type: WaveEffect
+        sizeFrom: 10
+        sizeTo: 150
+        colorFrom: 71ff2d
+        colorTo: 71ff2d
+        strokeFrom: 8
+        strokeTo: 0
+        lifetime: 15
+      }
+      {
+        length: 150
+        sizeFrom: 20
+        sizeTo: 0
+        lifetime: 45
+        colorFrom: d0ff80
+        colorTo: 71ff2d
+        particles: 20
+      }
+      {
+        length: 60
+        lenFrom: 12
+        sizeTo: 0
+        strokeFrom: 5
+        strokeTo: 0
+        lifetime: 15
+        colorFrom: d0ff80
+        colorTo: 71ff2d
+        particles: 13
+      }
+    ]
     lifetime: 150
     speed: 6
     width: 25
@@ -71,10 +105,11 @@ ammoTypes: {
     trailWidth: 7
     trailEffect: {
       length: 40
-      cone: -25
+      cone: 30
       sizeFrom: 10
       sizeTo: 0
-      lifetime: 15
+      lifetime: 20
+      baseRotation: 180
       particles: 5
       colorFrom: 71ff2d
       colorTo: 71ff2d
@@ -84,7 +119,6 @@ ammoTypes: {
     trailColor: 71ff2d
     backColor: 71ff2d
     frontColor: d0ff80
-    hitEffect: none
-    despawnEffect: none
+    despawnHit: true
   }
 }
