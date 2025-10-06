@@ -79,18 +79,27 @@ ammoTypes: {
         length: 100
         sizeFrom: 20
         sizeTo: 0
-        lifetime: 60
+        lifetime: 160
         colorFrom: d0ff80
         colorTo: 71ff2d
         particles: 20
       }
       {
-        length: 70
+        length: 100
+        sizeFrom: 15
+        sizeTo: 0
+        lifetime: 140
+        colorFrom: e3ff6f
+        colorTo: d0ff80
+        particles: 16
+      }
+      {
+        length: 120
         lenFrom: 12
         sizeTo: 0
         strokeFrom: 5
         strokeTo: 0
-        lifetime: 15
+        lifetime: 20
         colorFrom: d0ff80
         colorTo: 71ff2d
         particles: 13
