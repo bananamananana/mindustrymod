@@ -72,12 +72,13 @@ ammoTypes: {
     trailEffect: {
       length: 40
       cone: -25
-      sizeFrom: 7
+      sizeFrom: 10
       sizeTo: 0
-      lifetime: 10
+      lifetime: 15
       particles: 5
       colorFrom: 71ff2d
       colorTo: 71ff2d
+      rotWithParent: true
     }
     trailLength: 60
     trailColor: 71ff2d
