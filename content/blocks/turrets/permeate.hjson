@@ -1,0 +1,81 @@
+type: ItemTurret
+requirements: [
+crack/550
+]
+name: "Permeate"
+description: '''
+placeholder
+'''
+category: turret
+range: 900
+drawer: {
+type: DrawTurret
+parts: [
+{
+suffix: "-wing"
+progress: recoil
+heatProgress: recoil
+under: true
+moveY: -2
+moveX: -2
+moveRot: -15
+}
+]
+}
+shootEffect: [
+  {
+    length: 80
+    cone: 10
+    lifetime: 15
+    particles: 4
+    colorFrom: 787878
+    colorTo: 787878
+    sizeFrom: 5
+    sizeTo: 0
+  }
+  {
+    length: 80
+    cone: 13
+    lifetime: 12
+    particles: 5
+    colorFrom: 787878
+    colorTo: 787878
+    sizeFrom: 4
+    sizeTo: 0
+  }
+]
+smokeEffect: none
+shootSound: shootBig
+reload: 240
+recoil: 1.5
+recoilTime: 120
+rotateSpeed: 1
+shake: 10
+size: 5
+inaccuracy: 0
+shootCone: 10
+ammoPerShot: 10
+maxAmmo: 100
+ammoTypes: {
+  uranium: {
+    type: ArtilleryBulletType
+    ammoMultiplier: 1
+    damage: 80
+    lifetime: 150
+    speed: 6
+    width: 10
+    height: 15
+    trailWidth: 10
+    trailLength: 100
+    trailColor: 71ff2d
+    backColor: 71ff2d
+    frontColor: d0ff80
+    hitEffect: fireHit
+    despawnEffect: [
+      fireHit,
+      fire,
+      fireSmoke,
+      fireSmoke,
+    ]
+  }
+}
