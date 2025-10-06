@@ -4,7 +4,7 @@ crack/550
 ]
 name: "Permeate"
 description: '''
-placeholder
+Launches dense, superheated shells at ground targets.
 '''
 category: turret
 range: 900
@@ -23,28 +23,8 @@ mirror: true
 }
 ]
 }
-shootEffect: [
-  {
-    length: 80
-    cone: 10
-    lifetime: 15
-    particles: 4
-    colorFrom: 787878
-    colorTo: 787878
-    sizeFrom: 5
-    sizeTo: 0
-  }
-  {
-    length: 80
-    cone: 13
-    lifetime: 12
-    particles: 5
-    colorFrom: 787878
-    colorTo: 787878
-    sizeFrom: 4
-    sizeTo: 0
-  }
-]
+targetAir: false
+shootEffect: none
 smokeEffect: none
 shootSound: shootBig
 reload: 240
@@ -62,7 +42,7 @@ ammoTypes: {
     type: ArtilleryBulletType
     ammoMultiplier: 1
     damage: 0
-    splashDamage: 2000
+    splashDamage: 1000
     splashDamageRadius: 100
     hitShake: 15
     hitEffect: [
@@ -77,21 +57,12 @@ ammoTypes: {
         lifetime: 160
       }
       {
-        length: 120
-        sizeFrom: 20
-        sizeTo: 0
-        lifetime: 160
-        colorFrom: d0ff80
-        colorTo: 71ff2d
-        particles: 20
-      }
-      {
         length: 100
         sizeFrom: 15
-        sizeTo: 0
+        sizeTo: 6
         lifetime: 160
         colorFrom: e3ff6f
-        colorTo: d0ff80
+        colorTo: d0ff8000
         particles: 16
       }
     ]
@@ -118,6 +89,59 @@ ammoTypes: {
     trailColor: 71ff2d
     backColor: 71ff2d
     frontColor: d0ff80
+    despawnHit: true
+  }
+  plutonium: {
+    type: ArtilleryBulletType
+    ammoMultiplier: 1
+    damage: 0
+    splashDamage: 2000
+    splashDamageRadius: 100
+    hitShake: 15
+    hitEffect: [
+      {
+        type: WaveEffect
+        sizeFrom: 10
+        sizeTo: 100
+        colorFrom: ff8644
+        colorTo: ff8644
+        strokeFrom: 8
+        strokeTo: 0
+        lifetime: 160
+      }
+      {
+        length: 100
+        sizeFrom: 15
+        sizeTo: 6
+        lifetime: 160
+        colorFrom: ff8644
+        colorTo: ff864400
+        particles: 16
+      }
+    ]
+    lifetime: 150
+    speed: 6
+    width: 25
+    height: 40
+    shrinkX: 0
+    shrinkY: 0
+    trailWidth: 7
+    trailEffect: {
+      length: 40
+      cone: 30
+      sizeFrom: 10
+      sizeTo: 0
+      lifetime: 20
+      baseRotation: 180
+      particles: 5
+      colorFrom: ff8644
+      colorTo: ff8644
+      rotWithParent: true
+    }
+    trailLength: 60
+    trailColor: ff8644
+    backColor: ff8644
+    frontColor: ffc66b
     despawnHit: true
   }
 }
