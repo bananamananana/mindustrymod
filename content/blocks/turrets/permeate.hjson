@@ -63,12 +63,12 @@ ammoTypes: {
     ammoMultiplier: 1
     damage: 0
     splashDamage: 2000
-    splashDamageRadius: 150
+    splashDamageRadius: 100
     hitEffect: [
       {
         type: WaveEffect
         sizeFrom: 10
-        sizeTo: 150
+        sizeTo: 100
         colorFrom: 71ff2d
         colorTo: 71ff2d
         strokeFrom: 8
@@ -76,16 +76,16 @@ ammoTypes: {
         lifetime: 15
       }
       {
-        length: 150
+        length: 100
         sizeFrom: 20
         sizeTo: 0
-        lifetime: 45
+        lifetime: 60
         colorFrom: d0ff80
         colorTo: 71ff2d
         particles: 20
       }
       {
-        length: 60
+        length: 70
         lenFrom: 12
         sizeTo: 0
         strokeFrom: 5
@@ -94,6 +94,7 @@ ammoTypes: {
         colorFrom: d0ff80
         colorTo: 71ff2d
         particles: 13
+        line: true
       }
     ]
     lifetime: 150
