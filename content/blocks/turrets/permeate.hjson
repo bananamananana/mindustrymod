@@ -19,6 +19,7 @@ under: true
 moveY: -2
 moveX: -2
 moveRot: -15
+mirror: true
 }
 ]
 }
@@ -63,19 +64,16 @@ ammoTypes: {
     damage: 80
     lifetime: 150
     speed: 6
-    width: 10
-    height: 15
-    trailWidth: 10
+    width: 25
+    height: 40
+    shrinkX: 0
+    shrinkY: 0
+    trailWidth: 5
     trailLength: 100
     trailColor: 71ff2d
     backColor: 71ff2d
     frontColor: d0ff80
-    hitEffect: fireHit
-    despawnEffect: [
-      fireHit,
-      fire,
-      fireSmoke,
-      fireSmoke,
-    ]
+    hitEffect: none
+    despawnEffect: none
   }
 }
