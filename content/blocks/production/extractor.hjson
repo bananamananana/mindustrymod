@@ -8,6 +8,22 @@ recipes: [
   {
     input: {
       items: [
+        mindustrymod-setyrx_ore/5
+      ]
+      power: 2
+    }
+    output: {
+      items: [
+        mindustrymod-refined_setyrx/1
+        uranium/2
+        plutonium/2
+      ]
+    }
+    craftTime: 120
+  }
+  {
+    input: {
+      items: [
         thorium/3
       ]
       power: 1
