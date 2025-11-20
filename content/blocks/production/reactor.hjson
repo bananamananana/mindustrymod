@@ -30,7 +30,7 @@ recipes: [
   {
     input: {
       items: [
-        thorium/8
+        thorium/4
       ]
       fluids: [
         cryofluid/0.2
@@ -38,16 +38,16 @@ recipes: [
     }
     output: {
       items: [
-        mindustrymod-uranium/6
+        mindustrymod-uranium/3
       ]
       power: 20
     }
-    craftTime: 1200
+    craftTime: 400
   }
   {
     input: {
       items: [
-        mindustrymod-uranium/8
+        mindustrymod-uranium/4
       ]
       fluids: [
         cryofluid/0.2
@@ -55,16 +55,16 @@ recipes: [
     }
     output: {
       items: [
-        mindustrymod-plutonium/6
+        mindustrymod-plutonium/3
       ]
       power: 24
     }
-    craftTime: 900
+    craftTime: 400
   }
   {
     input: {
       items: [
-        mindustrymod-plutonium/8
+        mindustrymod-plutonium/4
       ]
       fluids: [
         cryofluid/0.2
@@ -73,12 +73,12 @@ recipes: [
     output: {
       power: 32
     }
-    craftTime: 600
+    craftTime: 400
   }
   {
     input: {
       items: [
-        mindustrymod-refined_setyrx/8
+        mindustrymod-refined_setyrx/4
       ]
       fluids: [
         cryofluid/0.2
