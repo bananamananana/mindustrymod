@@ -1,0 +1,59 @@
+type: multicraft.MultiCrafter
+name: "Nuclear Reactor"
+description: '''
+Converts radioisotopes into one another, as well as generating electricity.
+'''
+size: 5
+recipes: [
+  {
+    input: {
+      items: [
+        thorium/8
+      ]
+      fluids: [
+        cryofluid/0.2
+      ]
+    }
+    output: {
+      items: [
+        mindustrymod-uranium/6
+      ]
+      power: 20
+    }
+    craftTime: 1200
+  }
+  {
+    input: {
+      items: [
+        uranium/8
+      ]
+      fluids: [
+        cryofluid/0.2
+      ]
+    }
+    output: {
+      items: [
+        mindustrymod-plutonium/6
+      ]
+      power: 24
+    }
+    craftTime: 900
+  }
+  {
+    input: {
+      items: [
+        plutonium/8
+      ]
+      fluids: [
+        cryofluid/0.2
+      ]
+    }
+    output: {
+      power: 32
+    }
+    craftTime: 600
+  }
+]
+category: power
+requirements: [
+]
