@@ -7,7 +7,7 @@ size: 5
 drawer: [
   {
     type: DrawRegion
-    suffix: -bottom
+    suffix: bottom
   }
   {
     type: DrawLiquidTile
@@ -73,6 +73,20 @@ recipes: [
       power: 32
     }
     craftTime: 600
+  }
+  {
+    input: {
+      items: [
+        mindustrymod-refined_setyrx/8
+      ]
+      fluids: [
+        cryofluid/0.2
+      ]
+    }
+    output: {
+      power: 50
+    }
+    craftTime: 400
   }
 ]
 category: power
