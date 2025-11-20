@@ -4,6 +4,7 @@ description: '''
 Converts radioisotopes into one another, as well as generating electricity.
 '''
 size: 5
+itemCapacity: 40
 drawer: [
   {
     type: DrawRegion
