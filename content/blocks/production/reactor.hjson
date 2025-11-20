@@ -4,6 +4,27 @@ description: '''
 Converts radioisotopes into one another, as well as generating electricity.
 '''
 size: 5
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: cryofluid
+  }
+  {
+    type: DrawSoftParticles
+    alpha: 0.7
+    particleRad: 12
+    particleSize: 10
+    particleLife: 100
+    particles: 20
+    color: 4fe0ff
+    color2: 27a4bf00
+  }
+  DrawDefault
+]
 recipes: [
   {
     input: {
@@ -25,7 +46,7 @@ recipes: [
   {
     input: {
       items: [
-        uranium/8
+        mindustrymod-uranium/8
       ]
       fluids: [
         cryofluid/0.2
@@ -42,7 +63,7 @@ recipes: [
   {
     input: {
       items: [
-        plutonium/8
+        mindustrymod-plutonium/8
       ]
       fluids: [
         cryofluid/0.2
