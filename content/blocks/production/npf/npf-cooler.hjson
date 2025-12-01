@@ -7,7 +7,7 @@ size: 8
 consumes: {
   power: 10
   liquids: [
-    listerine/5
+    listerine/1
     npf-neutronium/1
   ]
 }
@@ -18,7 +18,7 @@ drawer: [
 outputItems: [
   neutronium/1
 ]
-craftTime: 30
+craftTime: 240
 craftEffect: none
 updateEffect: smeltsmoke
 updateEffectChance: 0.3
