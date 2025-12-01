@@ -7,7 +7,7 @@ size: 2
 consumes: {
   power: 5
   liquids: [
-    liquid-crack/2
+    liquid-crack/0.5
   ]
 }
 conductivePower: true
