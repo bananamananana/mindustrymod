@@ -7,7 +7,7 @@ size: 2
 consumes: {
   power: 5
   liquids: [
-    slag/5
+    slag/1
   ]
 }
 conductivePower: true
